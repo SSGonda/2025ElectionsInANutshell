@@ -76,8 +76,7 @@
 								style="border-radius: calc(0.5rem + 0.125rem + 4px);"
 							>
 								<Button
-									href="https://github.com/SSGonda/2025ElectionsInANutshell/tree/main/dataset"
-									target="_blank"
+									href="{base}/datasets"
 									size="lg"
 									class="rounded-xl px-5 text-base"
 								>
