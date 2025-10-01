@@ -3,6 +3,7 @@
 	import ArrowRight from '@lucide/svelte/icons/arrow-right';
 	import WordsPullUp from '$lib/components/ui/WordsPullUp.svelte';
 	import Particles from '$lib/components/ui/Particles.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <div>
@@ -27,7 +28,7 @@
 					<div class="text-center sm:mx-auto lg:mt-0 lg:mr-auto">
 						<div>
 							<a
-								href="/"
+								href="#"
 								class="group mx-auto flex w-fit items-center gap-4 rounded-full border bg-muted p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 hover:bg-background dark:border-t-white/5 dark:shadow-zinc-950 dark:hover:border-t-border"
 							>
 								<span class="text-sm text-foreground">Find out more about the project here.</span>
@@ -98,14 +99,14 @@
 					>
 						<img
 							class="relative hidden aspect-16/9 rounded-2xl bg-background dark:block"
-							src="/hero.jpg"
+							src="{base}/hero.jpg"
 							alt="A Filipino voter that casted their vote, from Rappler."
 							width="1920"
 							height="1080"
 						/>
 						<img
 							class="relative z-2 aspect-16/9 rounded-2xl border border-border/25 dark:hidden"
-							src="/hero.jpg"
+							src="{base}/hero.jpg"
 							alt="A Filipino voter that casted their vote, from Rappler."
 							width="1920"
 							height="1080"
