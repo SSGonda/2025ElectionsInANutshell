@@ -62,26 +62,29 @@
 
 </section>
 <div class="about-box">
-  <img src="/lance.jpg" alt="Lance Joseph D. Padilla" class="profile-pic" />
+  <a href = "https://www.facebook.com/ssep1234#"><img src="/lance.jpg" alt="Lance Joseph D. Padilla" class="profile-pic" /></a>
   <div class="about-text">
     <h2 class = "text-base font-semibold tracking-[-0.015em] text-balance text-white md:max-w-lg md:text-xl lg:text-3xl">Lance Joseph D. Padilla</h2>
     <p class = "text-base/6 text-neutral-200">Team Developer</p>
+    <p class = "text-base/6 text-neutral-200">“Never give up, for that is just the place and time that the tide will turn.”</p>
   </div>
 </div>
 
 <div class="about-box">
-  <img src="/stephen.jpg" alt="Stephen James S. Gonda" class="profile-pic" />
+  <a href= "https://www.facebook.com/S1j2G3"><img src="/stephen.jpg" alt="Stephen James S. Gonda" class="profile-pic" /></a>
   <div class="about-text">
     <h2 class = "text-base font-semibold tracking-[-0.015em] text-balance text-white md:max-w-lg md:text-xl lg:text-3xl">Stephen James S. Gonda</h2>
     <p class = "text-base/6 text-neutral-200">Team Developer</p>
+    <p class = "text-base/6 text-neutral-200">“We can do better if we think about it.”</p>
   </div>
 </div>
 
 <div class="about-box">
-  <img src="/geraldine.jpg" alt="Geraldine Abigail A. Badiola" class="profile-pic" />
+  <a href = "https://www.facebook.com/GeraldineBadiola/"><img src="/geraldine.jpg" alt="Geraldine Abigail A. Badiola" class="profile-pic" /></a>
   <div class="about-text">
     <h2 class = "text-base font-semibold tracking-[-0.015em] text-balance text-white md:max-w-lg md:text-xl lg:text-3xl">Geraldine Abigail A. Badiola</h2>
     <p class = "text-base/6 text-neutral-200">Team Developer</p>
+    <p class = "text-base/6 text-neutral-200">“Strength does not come from physical capacity. It comes from an indomitable will.”</p>
   </div>
 </div>
 
