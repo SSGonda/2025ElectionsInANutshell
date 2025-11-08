@@ -51,5 +51,13 @@
     >
         Dataset in Github Repository
     </Button>
+    <Button
+        href="https://docs.google.com/document/d/1qpt5CCAa1tyBwtswnrnDdPStzPo6G0Wk1vtH-F08VqE/edit?usp=sharing"
+        target="_blank"
+        size="lg"
+        class="rounded-xl px-5"
+    >
+        Nutshell Plot
+    </Button>
     <Particles className="absolute inset-0 -z-10" refresh={true} />
 </section>
