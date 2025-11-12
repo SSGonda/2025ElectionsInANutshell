@@ -209,7 +209,5 @@
 				<p class="text-center align-middle text-white">Image Source: Rappler</p>
 			</div>
 		</section>
-
-		<section></section>
 	</main>
 </div>

@@ -2,6 +2,7 @@
 	import type { PageProps } from './$types.js';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import { base } from '$app/paths';
+    import Particles from '$lib/components/ui/Particles.svelte';
 
 	let { data }: PageProps = $props();
 </script>
@@ -300,5 +301,5 @@
 		</ul>
 	</div>
 
-	<!-- <Particles className="absolute inset-0 -z-10" refresh={true} /> -->
+	<Particles className="absolute inset-0 -z-10" refresh={true} />
 </section>
