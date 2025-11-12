@@ -7,18 +7,18 @@
 		
 		<link href="../_app/immutable/assets/0.DIxUgBv3.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/Particles.B5Lg2ugT.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.CHEqApfG.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/BUF04P72.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.Cevg84Hm.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/WrRrGo8t.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/B04hsPCv.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/C18Ob3kF.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.CwH7GRVy.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/pDpCtOW_.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.BWW7P9gp.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/DsnmJJEf.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/tiXinKMQ.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/DufSuZtO.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/Bsj4oY44.js">
 		<link rel="modulepreload" href="../_app/immutable/nodes/0.BWOArWbn.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/BxVNl1F9.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/5.CKMIhIYF.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/5.DASzhEjQ.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/DkCVn28F.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/hqN7q52K.js"><!--[--><!--[!--><!--]--> <!----><script>(function setInitialMode({ defaultMode = "system", themeColors: themeColors2, darkClassNames: darkClassNames2 = ["dark"], lightClassNames: lightClassNames2 = [], defaultTheme = "", modeStorageKey: modeStorageKey2 = "mode-watcher-mode", themeStorageKey: themeStorageKey2 = "mode-watcher-theme" }) {
   const rootEl = document.documentElement;
@@ -59,7 +59,28 @@
 			containing the corresponding tone, polarity, and judgement per candidate mentioned in that
 			tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its
 			balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial
-			Index, 2025).</p> <h1 class="text-3xl font-semibold">Hypotheses under Pearson Correlation</h1> <figure class="flex flex-col justify-center"><img class="self-center-safe" src="../image3.png" alt="Pearson Correlation Plot"/> <figcaption class="text-center font-light">Figure 1. Pearson Correlation of Total Votes in Relation to the Average Polarity of Each
+			Index, 2025).</p> <h1 class="text-3xl font-semibold">Hypotheses under Correlation and Normality Tests</h1> <h2 class="font-semibold">Normality Test</h2> <pre class="self-center-safe">
+Senators → Chi-square=9.600, p=0.143, dof=6
+votes_cat     Low  Mid-Low  Mid-High  High
+polarity_cat                              
+Negative        3        1         0     1
+Neutral         0        1         0     1
+Positive        0        1         3     1 
+
+Partylists → Chi-square=3.281, p=0.773, dof=6
+votes_cat     Low  Mid-Low  Mid-High  High
+polarity_cat                              
+Negative        0        1         1     1
+Neutral         1        0         0     1
+Positive        5        4         4     3 
+
+All → Chi-square=11.330, p=0.079, dof=6
+votes_cat     Low  Mid-Low  Mid-High  High
+polarity_cat                              
+Negative        1        1         5     1
+Neutral         1        0         1     2
+Positive        7        7         2     5 
+		</pre> <p>With p > 0.05 for all cases, the null hypothesis is accepted, that is, the data does not follow a normal distribution</p> <p>Although Pearson Correlation and Spearman Correlation do not assume normality, with this, they may still be used to test for correlation.</p> <h2 class="font-semibold">Correlation Tests</h2> <figure class="flex flex-col justify-center"><img class="self-center-safe" src="../image3.png" alt="Pearson Correlation Plot"/> <figcaption class="text-center font-light">Figure 1. Pearson Correlation of Total Votes in Relation to the Average Polarity of Each
 				Senatorial Candidate</figcaption></figure> <figure class="flex flex-col justify-center"><img class="self-center-safe" src="../image1.png" alt="Spearman's Rank Correlation Plot"/> <figcaption class="text-center font-light">Figure 2. Spearman's Rank Correlation of Total Votes with respect to the Average Polarity of
 				Each Senatorial Candidate</figcaption></figure> <section class="space-y-4"><div><h2 class="font-semibold">Null</h2> <p>Social media sentiments have no significant level of influence on the likelihood of being
 					elected a Candidate during the 2025 Philippine National and Local Elections.</p></div> <div><h2 class="font-semibold">Alternative</h2> <p>Social media sentiments have a significant level of influence on the likelihood of being
@@ -87,7 +108,7 @@
 			
 			<script>
 				{
-					__sveltekit_1fsdfy2 = {
+					__sveltekit_1d5lhv7 = {
 						base: new URL("..", location).pathname.slice(0, -1),
 						assets: "/sveltekit-gh-pages"
 					};
@@ -95,8 +116,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("../_app/immutable/entry/start.CHEqApfG.js"),
-						import("../_app/immutable/entry/app.CwH7GRVy.js")
+						import("../_app/immutable/entry/start.Cevg84Hm.js"),
+						import("../_app/immutable/entry/app.BWW7P9gp.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 5],
