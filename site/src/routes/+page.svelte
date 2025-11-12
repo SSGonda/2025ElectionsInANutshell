@@ -85,7 +85,7 @@
 								variant="secondary"
 								class="rounded-xl px-5 text-base"
 							>
-								<span class="text-nowrap">Our Plots.</span>
+								<span class="text-nowrap">Our EDA.</span>
 							</Button>
 							<Button
 								href="https://docs.google.com/document/d/1tlSUfIRb3os0wD-ZWfunGBFz90_re7mKh7p5uedNXUs/edit?usp=sharing"

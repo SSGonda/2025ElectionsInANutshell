@@ -69,7 +69,37 @@
 			Index, 2025).
 		</p>
 
-		<h1 class="text-3xl font-semibold">Hypotheses under Pearson Correlation</h1>
+		<h1 class="text-3xl font-semibold">Hypotheses under Correlation and Normality Tests</h1>
+
+		<h2 class="font-semibold">Normality Test</h2>
+
+		<pre class="self-center-safe">
+Senators → Chi-square=9.600, p=0.143, dof=6
+votes_cat     Low  Mid-Low  Mid-High  High
+polarity_cat                              
+Negative        3        1         0     1
+Neutral         0        1         0     1
+Positive        0        1         3     1 
+
+Partylists → Chi-square=3.281, p=0.773, dof=6
+votes_cat     Low  Mid-Low  Mid-High  High
+polarity_cat                              
+Negative        0        1         1     1
+Neutral         1        0         0     1
+Positive        5        4         4     3 
+
+All → Chi-square=11.330, p=0.079, dof=6
+votes_cat     Low  Mid-Low  Mid-High  High
+polarity_cat                              
+Negative        1        1         5     1
+Neutral         1        0         1     2
+Positive        7        7         2     5 
+		</pre>
+
+		<p>With p &gt; 0.05 for all cases, the null hypothesis is accepted, that is, the data does not follow a normal distribution</p>
+		<p>Although Pearson Correlation and Spearman Correlation do not assume normality, with this, they may still be used to test for correlation.</p>
+
+		<h2 class="font-semibold">Correlation Tests</h2>
 
 		<figure class="flex flex-col justify-center">
 			<img class="self-center-safe" src="{base}/image3.png" alt="Pearson Correlation Plot" />
