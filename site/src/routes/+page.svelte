@@ -114,8 +114,24 @@
 						
 					</div>
 				</div>
+				
+				<div class="nutshellplot">
+				
+					<div class="temp"></div>
 
-				<div class="mx-auto mt-30 grid w-full max-w-6xl grid-cols-1 gap-4 lg:grid-cols-3">
+					<div class="nutshelltext">
+						<p class="nutshellheadtext">
+						What we Found...
+						</p>
+						<p>
+							An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.
+						</p>
+					</div>
+				</div>
+
+				
+				
+				<div class="mx-auto mt-10 grid w-full max-w-6xl grid-cols-1 gap-4 lg:grid-cols-3">
 					<WobbleCard
 						containerClass="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
 					>
@@ -195,7 +211,54 @@
 					</WobbleCard>
 				</div>
 
-				<div class="relative mt-8 -mr-56 overflow-hidden px-2 sm:mt-12 sm:mr-0 md:mt-20">
+				<div class="eda">
+					<p class="edahead">Our EDA</p>
+					<div class="widetemp"></div>
+				</div>
+
+				<p class="inbetween">
+					An overview on the effects and relationships <br>
+					of Social Media Exposure to the 2025 <br>
+					Philippine Midterm Election. <br>
+				</p>
+
+				<div class="nutshellplot">
+		
+					<div class="temp1"></div>
+
+					<div class="nutshelltext1">
+						<p class="nutshellheadtext1">
+						say what???
+						</p>
+						<p>
+							An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.
+						</p>
+					</div>
+				</div>
+
+				
+				<p class="notablefigures">some noteable figures.</p>
+				<div class="threepoints">
+					<div class="onepoint">
+						<div class="circ"></div>
+						<p class ="circtext">An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.</p>
+					</div>
+					<div class="onepoint">
+						<div class="circ"></div>
+						<p class ="circtext">An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.</p>
+					</div>
+					<div class="onepoint">
+						<div class="circ"></div>
+						<p class ="circtext">An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.</p>
+					</div>
+
+				</div>
+
+				
+				
+				<div class="end"></div>
+
+				<!-- <div class="relative mt-8 -mr-56 overflow-hidden px-2 sm:mt-12 sm:mr-0 md:mt-20">
 					<div
 						class="absolute inset-0 z-10 bg-linear-to-b from-transparent from-35% to-background"
 					></div>
@@ -219,7 +282,7 @@
 					</div>
 				</div>
 				<p class="text-center align-middle text-white">Image Source: Rappler</p>
-			</div>
+			</div> -->
 		</section>
 	</main>
 </div>
@@ -254,4 +317,125 @@
 		line-height: 0.9;
 	}
 
+	.nutshellplot{
+		display: flex;
+		padding: 50px;
+		padding-bottom: 25px;
+	}
+
+	.temp1{
+		background-color: #190A2F;
+		height: 650px;
+		width: 642px;
+		border-radius: 10px;
+		flex-shrink: 0;
+		float: right;
+	}
+
+	.nutshelltext1{
+		text-align: right;
+		font-family: 'HomeVideo-ABLG6G';
+		padding-left: 10px;
+		padding-top: -10px;
+		margin-left: 15px;
+	}
+
+	.nutshellheadtext1{
+		text-align: right;
+		margin: 20px;
+		font-family: 'HomeVideo-ABLG6G';
+		font-size: 30px;
+
+	}
+
+	.temp{
+		background-color: #190A2F;
+		height: 748px;
+		width: 642px;
+		border-radius: 10px;
+		flex-shrink: 0;
+	}
+
+	.nutshelltext{
+		text-align: left;
+		font-family: 'HomeVideo-ABLG6G';
+		padding-left: 10px;
+		padding-top: -10px;
+		margin-left: 15px;
+	}
+
+	.nutshellheadtext{
+		text-align: left;
+		margin: 20px;
+		font-family: 'HomeVideo-ABLG6G';
+		font-size: 30px;
+
+	}
+
+	.widetemp{
+		background-color: #190A2F;
+		height: 350px;
+		width: 1440px;
+		border-radius: 10px;
+	}
+
+	.edahead {
+		text-align: center;
+		margin: 20px;
+		font-family: 'HomeVideo-ABLG6G';
+		font-size: 30px;
+		margin-top: 55px;
+	}
+	
+	.inbetween{
+		text-align: center;
+		margin: 20px;
+		font-family: 'HomeVideo-ABLG6G';
+		font-size: 15px;
+	}
+
+	.threepoints{
+		display: flex;
+		flex-direction: row;
+		margin-top: 55px;
+	}
+
+	.onepoint{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.circ{
+		border-radius: 50%;
+		background-color: #D9D9D9;
+		width: 250px;
+		height: 250px;
+		display: flex;
+	}
+
+	.circtext{
+		font-family: 'HomeVideo-ABLG6G';
+		font-size: 12px;
+		text-align: center;
+		margin-top: 15px;
+		padding: 30px;
+	}
+
+	.notablefigures{
+		font-family: 'HomeVideo-ABLG6G';
+		font-size: 35px;
+		text-align: center;
+		margin-top: 45px;
+		text-decoration: underline;
+	}
+
+	.end{
+		background-color: #190A2F;
+		height: 150px;
+		width: 1440px;
+		border-radius: 10px;
+		margin-top: 45px;
+	}
 </style>
