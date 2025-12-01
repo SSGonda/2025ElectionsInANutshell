@@ -20,15 +20,53 @@
 				class="absolute top-0 left-0 h-320 w-60 -translate-y-87.5 -rotate-45 bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.04)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)]"
 			></div>
 		</div>
+
+		<img src="{base}/tvhero.jpg" alt="tv hero"/>
+
 		<section>
-			<div class="relative pt-24 md:pt-36">
+			<div>
 				<div
 					class="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"
 				></div>
+				
 				<div class="mx-auto max-w-7xl px-6">
 					<div class="text-center sm:mx-auto lg:mt-0 lg:mr-auto">
-						<div>
-							<a
+						<div class="buttons">
+							<div class="mt-7 flex flex-col items-center justify-center gap-50 md:flex-row">
+								<Button 
+								href="{base}/datasets" 
+								size="lg"
+								variant="ghost"
+								class="rounded-xl px-5 text-base">
+									<span class="text-nowrap">Our Datasets.</span>
+								</Button>
+							<Button
+								href="{base}/plots"
+
+
+								size="lg"
+								variant="ghost"
+								class="rounded-xl px-5 text-base"
+								
+							>
+								<span class="text-nowrap">Our EDA.</span>
+							</Button>
+							<Button
+								href="https://docs.google.com/document/d/1tlSUfIRb3os0wD-ZWfunGBFz90_re7mKh7p5uedNXUs/edit?usp=sharing"
+								target="_blank"
+								size="lg"
+								variant="ghost"
+								class="rounded-xl px-5"
+							>
+								Documentation
+							</Button>
+							<Button href="{base}/aboutus" size="lg" variant="ghost" class="rounded-xl px-5">
+								About Us
+							</Button>
+							</div>
+
+
+							<!-- <a
 								href="https://docs.google.com/document/d/1IjmjmYrjMhwYYxZNAdXBEPlILsOEzoj4zs2tUN7Ju68/edit?usp=sharing"
 								target="_blank"
 								class="group mx-auto flex w-fit items-center gap-4 rounded-full border bg-muted p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 hover:bg-background dark:border-t-white/5 dark:shadow-zinc-950 dark:hover:border-t-border"
@@ -52,15 +90,18 @@
 										</span>
 									</div>
 								</div>
-							</a>
+							</a> -->
 						</div>
 
 						<div>
 							<h1 class="mt-12">
-								<WordsPullUp
-									class="text-4xl font-bold tracking-[-0.02em] text-black md:text-7xl md:leading-[5rem] dark:text-white"
+								<!-- <WordsPullUp
 									words="2025 Elections in a Nutshell."
-								/>
+								/> -->
+
+								<p>
+									2025 Elections in a Nutshell.
+								</p>
 							</h1>
 
 							<p class="mx-auto mt-3 max-w-2xl text-lg text-balance">
@@ -70,36 +111,7 @@
 							<Particles className="absolute inset-0 -z-10" refresh={true} />
 						</div>
 
-						<div class="mt-7 flex flex-col items-center justify-center gap-2 md:flex-row">
-							<div
-								class="border bg-foreground/10 p-0.5"
-								style="border-radius: calc(0.5rem + 0.125rem + 4px);"
-							>
-								<Button href="{base}/datasets" size="lg" class="rounded-xl px-5 text-base">
-									<span class="text-nowrap">Our Datasets.</span>
-								</Button>
-							</div>
-							<Button
-								href="{base}/plots"
-								size="lg"
-								variant="secondary"
-								class="rounded-xl px-5 text-base"
-							>
-								<span class="text-nowrap">Our EDA.</span>
-							</Button>
-							<Button
-								href="https://docs.google.com/document/d/1tlSUfIRb3os0wD-ZWfunGBFz90_re7mKh7p5uedNXUs/edit?usp=sharing"
-								target="_blank"
-								size="lg"
-								variant="ghost"
-								class="rounded-xl px-5"
-							>
-								Documentation
-							</Button>
-							<Button href="{base}/aboutus" size="lg" variant="ghost" class="rounded-xl px-5">
-								About Us
-							</Button>
-						</div>
+						
 					</div>
 				</div>
 
@@ -211,3 +223,16 @@
 		</section>
 	</main>
 </div>
+
+<style>
+	.mt-12{
+		font-family: 'HomeVideoBold-R90Dv';
+		font-size: 55px;
+	}
+
+	.mx-auto{
+		font-family: 'HomeVideo-ABLG6G';
+	}
+
+
+</style>

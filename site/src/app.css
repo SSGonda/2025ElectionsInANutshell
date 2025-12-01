@@ -4,6 +4,16 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face{
+	font-family: 'HomeVideo-ABLG6G';
+	src: url('HomeVideo-ABLG6G.ttf');
+}
+
+@font-face{
+	font-family: 'HomeVideoBold-R90Dv';
+	src: url('HomeVideoBold-R90Dv.ttf');
+}
+
 :root {
 	--radius: 0.625rem;
 	--background: oklch(1 0 0);

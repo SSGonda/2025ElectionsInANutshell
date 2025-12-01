@@ -85,8 +85,8 @@
 		margin: 0 0 10px 0;
 		color: white;
 		font-size: 20px;
-		font-style: italic;
 		margin-left: 15px;
+		font-family: 'HomeVideo-ABLG6G';
 	}
 
 	.about-text p {
@@ -102,4 +102,6 @@
 		object-fit: cover;
 		flex-shrink: 0;
 	}
+
+
 </style>
