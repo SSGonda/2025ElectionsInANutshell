@@ -298,7 +298,7 @@
 	}
 
 	.hero{
-		background-image: url("tvhero.png");
+		background-image: url("/tvhero.png");
 		display: flex;
 		height: 100vh;
 		width: 100vw;
