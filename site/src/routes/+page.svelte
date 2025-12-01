@@ -21,49 +21,48 @@
 			></div>
 		</div>
 
-		<img src="{base}/tvhero.jpg" alt="tv hero"/>
-
 		<section>
 			<div>
-				<div
-					class="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"
-				></div>
+				<div class="hero">
+					<div
+						class="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"
+					></div>
 				
-				<div class="mx-auto max-w-7xl px-6">
-					<div class="text-center sm:mx-auto lg:mt-0 lg:mr-auto">
-						<div class="buttons">
-							<div class="mt-7 flex flex-col items-center justify-center gap-50 md:flex-row">
-								<Button 
-								href="{base}/datasets" 
-								size="lg"
-								variant="ghost"
-								class="rounded-xl px-5 text-base">
-									<span class="text-nowrap">Our Datasets.</span>
+					<div class="mx-auto max-w-7xl px-6">
+						<div class="text-center sm:mx-auto lg:mt-0 lg:mr-auto">
+							<div class="buttons">
+								<div class="mt-7 flex flex-col items-center justify-center gap-50 md:flex-row">
+									<Button 
+									href="{base}/datasets" 
+									size="lg"
+									variant="ghost"
+									class="rounded-xl px-5 text-base">
+										<span class="text-nowrap">Our Datasets.</span>
+									</Button>
+								<Button
+									href="{base}/plots"
+
+
+									size="lg"
+									variant="ghost"
+									class="rounded-xl px-5 text-base"
+									
+								>
+									<span class="text-nowrap">Our EDA.</span>
 								</Button>
-							<Button
-								href="{base}/plots"
-
-
-								size="lg"
-								variant="ghost"
-								class="rounded-xl px-5 text-base"
-								
-							>
-								<span class="text-nowrap">Our EDA.</span>
-							</Button>
-							<Button
-								href="https://docs.google.com/document/d/1tlSUfIRb3os0wD-ZWfunGBFz90_re7mKh7p5uedNXUs/edit?usp=sharing"
-								target="_blank"
-								size="lg"
-								variant="ghost"
-								class="rounded-xl px-5"
-							>
-								Documentation
-							</Button>
-							<Button href="{base}/aboutus" size="lg" variant="ghost" class="rounded-xl px-5">
-								About Us
-							</Button>
-							</div>
+								<Button
+									href="https://docs.google.com/document/d/1tlSUfIRb3os0wD-ZWfunGBFz90_re7mKh7p5uedNXUs/edit?usp=sharing"
+									target="_blank"
+									size="lg"
+									variant="ghost"
+									class="rounded-xl px-5"
+								>
+									Documentation
+								</Button>
+								<Button href="{base}/aboutus" size="lg" variant="ghost" class="rounded-xl px-5">
+									About Us
+								</Button>
+								</div>
 
 
 							<!-- <a
@@ -92,20 +91,21 @@
 								</div>
 							</a> -->
 						</div>
+						</div>
 
-						<div>
+						<div class="headertext">
 							<h1 class="mt-12">
 								<!-- <WordsPullUp
 									words="2025 Elections in a Nutshell."
 								/> -->
 
-								<p>
-									2025 Elections in a Nutshell.
+								<p class="text-center">
+									2025 Elections in <br>a Nutshell.
 								</p>
 							</h1>
 
-							<p class="mx-auto mt-3 max-w-2xl text-lg text-balance">
-								An overview on the effects and relationships of Social Media Exposure to the 2025
+							<p class="mx-auto mt-3 max-w-2xl text-lg text-center">
+								An overview on the effects and relationships <br> of Social Media Exposure to the 2025 <br>
 								Philippine Midterm Election.
 							</p>
 							<Particles className="absolute inset-0 -z-10" refresh={true} />
@@ -234,5 +234,24 @@
 		font-family: 'HomeVideo-ABLG6G';
 	}
 
+	.hero{
+		background-image: url("tvhero.png");
+		display: flex;
+		height: 100vh;
+		width: 100vw;
+		background-size: 1440px 810px;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+
+	.headertext{
+		position: absolute;
+		right: 50px;
+		bottom: 225px;
+	}
+
+	.text-center{
+		line-height: 0.9;
+	}
 
 </style>
