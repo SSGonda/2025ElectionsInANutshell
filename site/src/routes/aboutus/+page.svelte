@@ -8,7 +8,7 @@
 </script>
 
 
-<section class="mt-10 mb-30 flex flex-col items-center justify-center gap-6 align-middle">
+<section class="mt-30 mb-30 flex flex-col items-center justify-center gap-6 align-middle">
 	<h1 class="text-center text-7xl font-bold">About Us</h1>
 	<Button href="{base}/" size="sm" variant="secondary">Go Back Home</Button>
 </section>

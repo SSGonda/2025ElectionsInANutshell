@@ -28,7 +28,7 @@
 						class="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"
 					></div>
 				
-					<div class="mx-auto max-w-7xl px-6">
+					<!-- <div class="mx-auto max-w-7xl px-6">
 						<div class="text-center sm:mx-auto lg:mt-0 lg:mr-auto">
 							<div class="buttons">
 								<div class="mt-7 flex flex-col items-center justify-center gap-50 md:flex-row">
@@ -63,7 +63,7 @@
 									About Us
 								</Button>
 								</div>
-
+ -->
 
 							<!-- <a
 								href="https://docs.google.com/document/d/1IjmjmYrjMhwYYxZNAdXBEPlILsOEzoj4zs2tUN7Ju68/edit?usp=sharing"
@@ -90,8 +90,8 @@
 									</div>
 								</div>
 							</a> -->
-						</div>
-						</div>
+						<!-- </div>
+						</div> -->
 
 						<div class="headertext">
 							<h1 class="mt-12">
@@ -254,8 +254,6 @@
 
 				</div>
 
-				
-				
 				<div class="end"></div>
 
 				<!-- <div class="relative mt-8 -mr-56 overflow-hidden px-2 sm:mt-12 sm:mr-0 md:mt-20">
@@ -281,8 +279,9 @@
 						/>
 					</div>
 				</div>
-				<p class="text-center align-middle text-white">Image Source: Rappler</p>
 			</div> -->
+
+
 		</section>
 	</main>
 </div>
