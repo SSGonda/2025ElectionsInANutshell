@@ -7,7 +7,7 @@
 	let { data }: PageProps = $props();
 </script>
 
-<section class="mt-30 mb-30 flex flex-col items-center justify-center gap-4 align-middle">
+<section class="mt-30 mb-10 flex flex-col items-center justify-center gap-4 align-middle">
 	<h1 class="text-center text-7xl font-[HomeVideoBold-R90Dv] text-[55px]">Our Plots.</h1>
 	<p class="font-[HomeVideo-ABLG6G] text-center">An overview on the effects and relationships <br>
 		of Social Media Exposure to the 2025 <br>
@@ -15,324 +15,476 @@
 	<Button href="{base}/" size="sm" variant="outline" class="font-[HomeVideo-ABLG6G]">Go Back Home</Button>
 </section>
 
-<section class="flex flex-col items-center justify-center gap-2 align-middle font-[HomeVideo-ABLG6G]">
-	<div class="flex max-w-4xl flex-col gap-3">
-		<h1 class="text-3xl">
-			EDA and Sentiment Analysis Notebooks [<a
-				class="text-blue-950"
-				href="https://deepnote.com/workspace/thing-a23c5647-fae1-450c-a5f9-b8d323581852/project/Stephens-Untitled-project-379262c2-f7d6-45ba-811e-59f3f72f9143/notebook/EDA2025MidtermHalalanSentimentAnalysisllama4maverick-c09ebae9fc814360b6c7f79efc6ae3d3"
-				>link</a
-			>]
-		</h1>
 
-		<p>
-			Deepnote was opted to be used as this offered easier collaboration options and provided a
-			‘link’ between 2 notebooks to access the same set of data at any time.
-		</p>
-
-		<h1 class="text-3xl">Context of the Sentiments Dataset</h1>
-		<p>
-			Prior to performing the EDA, each tweet was ran through an LLM
-			(meta-llama/llama-4-maverick-17b-128e-instruct) to perform sentiment analysis in which the
-			following attributes were determined per tweet,
-		</p>
-		<ul class="list-inside list-disc space-y-4">
-			<li>The mentioned candidate or partylist</li>
-			<li>
-				The polarity of the tweet, with -1 being negative and 1 being positive, floating point
-				values accepted, both exclusive
-			</li>
-			<li>
-				The tone of the tweet which may be
-				<ul class="mt-2 list-inside list-decimal space-y-1 ps-7">
-					<li>Anger</li>
-					<li>Contempt</li>
-					<li>Disgust</li>
-					<li>Enjoyment</li>
-					<li>Fear</li>
-					<li>Sadness</li>
-					<li>Surprise</li>
-					<li>Neutral</li>
-				</ul>
-			</li>
-			<li>
-				The ‘Perceived Judgement’ of a user towards their mentioned candidate, which may be either
-				<ul class="mt-2 list-inside list-decimal space-y-1 ps-7">
-					<li>In favor</li>
-					<li>Unsure</li>
-					<li>Opposed to</li>
-				</ul>
-			</li>
-		</ul>
-		<p>
-			In the case that multiple candidates were mentioned in a tweet, a list will be returned
-			containing the corresponding tone, polarity, and judgement per candidate mentioned in that
-			tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its
-			balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial
-			Index, 2025).
-		</p>
-
-		<h1 class="text-3xl">Hypotheses under Correlation and Normality Tests</h1>
-
-		<h2>Normality Test</h2>
-
-		<pre class="self-center-safe">
-Senators → Chi-square=9.600, p=0.143, dof=6
-votes_cat     Low  Mid-Low  Mid-High  High
-polarity_cat                              
-Negative        3        1         0     1
-Neutral         0        1         0     1
-Positive        0        1         3     1 
-
-Partylists → Chi-square=3.281, p=0.773, dof=6
-votes_cat     Low  Mid-Low  Mid-High  High
-polarity_cat                              
-Negative        0        1         1     1
-Neutral         1        0         0     1
-Positive        5        4         4     3 
-
-All → Chi-square=11.330, p=0.079, dof=6
-votes_cat     Low  Mid-Low  Mid-High  High
-polarity_cat                              
-Negative        1        1         5     1
-Neutral         1        0         1     2
-Positive        7        7         2     5 
-		</pre>
-
-		<p>With p &gt; 0.05 for all cases, the null hypothesis is accepted, that is, the data does not follow a normal distribution</p>
-		<p>Although Pearson Correlation and Spearman Correlation do not assume normality, with this, they may still be used to test for correlation.</p>
-
-		<h2>Correlation Tests</h2>
-
-		<figure class="flex flex-col justify-center">
-			<img class="self-center-safe rounded-2xl" src="{base}/image3.png" alt="Pearson Correlation Plot" />
-			<figcaption class="text-center font-light">
-				Figure 1. Pearson Correlation of Total Votes in Relation to the Average Polarity of Each
-				Senatorial Candidate
-			</figcaption>
-		</figure>
-
-		<figure class="flex flex-col justify-center">
-			<img
-				class="self-center-safe rounded-2xl"
-				src="{base}/image1.png"
-				alt="Spearman's Rank Correlation Plot"
-			/>
-			<figcaption class="text-center font-light">
-				Figure 2. Spearman's Rank Correlation of Total Votes with respect to the Average Polarity of
-				Each Senatorial Candidate
-			</figcaption>
-		</figure>
-
-		<section class="space-y-4">
-			<div>
-				<h2>Null</h2>
-				<p>
-					Social media sentiments have no significant level of influence on the likelihood of being
-					elected a Candidate during the 2025 Philippine National and Local Elections.
-				</p>
+<section class="font-[HomeVideo-ABLG6G]">
+	<div class="flex flex-row h-[500px] text-right mb-[95px] ml-[50px] mr-[50px]">
+		<div class="flex-1 content-center border-r-2 border-r-white">
+			<div class="flex m-[10px]">
+			<div class="bg-[#d9d9d9]  w-[55px] h-[31px] rounded-[10px] justify-center mr-[10px]">
+				<p class="text-[#190a2f] text-center text-[20px] ">1.</p>
+			</div>
+			<p class="text-[20px]">the mentioned candidate or partylist</p>
 			</div>
 
+			<div class="flex m-[10px]">
+			<div class="bg-[#d9d9d9]  w-[55px] h-[31px] rounded-[10px] justify-center mr-[10px]">
+				<p class="text-[#190a2f] text-center text-[20px] ">2.</p>
+			</div>
+			<p class="text-[20px]">the polarity of the tweet</p>
+			</div>
+
+			<div class="flex m-[10px]">
+			<div class="bg-[#d9d9d9]  w-[55px] h-[31px] rounded-[10px] justify-center mr-[10px]">
+				<p class="text-[#190a2f] text-center text-[20px] ">3.</p>
+			</div>
+			<p class="text-[20px]">the tone of the tweet</p>
+			</div>
+
+			<div class="flex m-[10px]">
+			<div class="bg-[#d9d9d9]  w-[55px] h-[31px] rounded-[10px] justify-center mr-[10px]">
+				<p class="text-[#190a2f] text-center text-[20px] ">4.</p>
+			</div>
+			<p class="text-[20px]">the 'perceived judgement' of a user</p>
+			</div>
+		</div>
+		
+		<div class="flex flex-col w-[626px] h-[384px]">
+			<p class="text-[40px] ">
+			Context of the <br>
+			Sentiments Dataset
+			</p>
+			<p class="ml-10 mt-5 mb-5">
+				Prior to performing the EDA, each tweet was ran 
+				through an LLM (meta-llama/llama-4-maverick-17b-128e-instruct) to perform 
+				sentiment analysis in which the following attributes were determined per tweet.
+				<br><br>
+				In the case that multiple candidates were mentioned in a tweet, a list will be 
+				returned containing the corresponding tone, polarity, and judgement per candidate 
+				mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, 
+				was used for its balance between speed, price, and accuracy based on its benchmarks on analysis 
+				(Artificial Index, 2025).
+			</p>
+		</div>
+	</div>
+
+	<div class="flex flex-row mb-25 bg-[#190a2f] inset-shadow-2xs">
+		<div class="content-center w-385">
+			<p class="text-[40px] text-center border-r-2 border-r-white">
+			EDA and Sentiment <br> analysis notebooks
+			</p>
+		</div>
+		<div class="text-right p-5">
+			Deepnote was opted to be used as this offered easier collaboration options and provided a
+			between 2 notebooks to access the same set of data at any time.
+			<br>
+			<Button href="https://deepnote.com/workspace/thing-a23c5647-fae1-450c-a5f9-b8d323581852/project/Stephens-Untitled-project-379262c2-f7d6-45ba-811e-59f3f72f9143/notebook/EDA2025MidtermHalalanSentimentAnalysisllama4maverick-c09ebae9fc814360b6c7f79efc6ae3d3" size="sm" variant="default" class="align-left m-5">Learn More</Button>
+		</div>
+	</div>
+
+
+	<div class="mb-25 flex flex-row p-5">
+
+		<div class="border-r-2 border-r-white w-[700px] p-10">
+			<h1 class="text-[40px]">Hypotheses under Correlation and Normality Tests</h1>
+
+			<div >
+			<p>With p &gt; 0.05 for all cases, the null hypothesis is accepted, that is, the data does not follow a normal distribution. Although Pearson Correlation and Spearman Correlation do not assume normality, with this, they may still be used to test for correlation.</p>
+			</div>
+		
+		
+		<div>
+			<h2 class="underline"><br>Null</h2>
+			<p>
+				Social media sentiments have no significant level of influence on the likelihood of being
+				elected a Candidate during the 2025 Philippine National and Local Elections.
+			</p>
+			<br>
+		</div>
+
 			<div>
-				<h2>Alternative</h2>
+				<h2 class="underline">Alternative</h2>
 				<p>
 					Social media sentiments have a significant level of influence on the likelihood of being
 					elected a Candidate during the 2025 Philippine National and Local Elections.
 				</p>
 			</div>
 
-			<div>
-				<h2>Conclusion</h2>
-				<p>Pearson correlation coefficient (polarity vs votes): -0.2784966690117171</p>
-				<p>Spearman correlation coefficient (polarity vs votes): -0.3678864219767173</p>
-				<p>
-					Which is interpreted as a negative moderate correlation, therefore, we reject the null
-					hypothesis. (Research Gate, 2018)
-				</p>
-			</div>
-		</section>
+		</div>
 
-		<h1 class="text-2xl">Research Questions</h1>
+		<div class="content-center">
+			<h2 class="underline m-2 mb-3">Normality Test</h2>
+		<div class=" bg-[#d9d9d93f] content-center w-[550px] rounded-[10px] p-2 m-2">
+			<pre class="whitespace-pre-wrap text-[15px]">
+			Senators → Chi-square=9.600, p=0.143, dof=6
+			votes_cat     Low  Mid-Low  Mid-High  High
+			polarity_cat                              
+			Negative        3        1         0     1
+			Neutral         0        1         0     1
+			Positive        0        1         3     1 
+		</pre>
+		</div>
 
-		<h2 class="text-xl">
-			How did emotions impact the candidates to be chosen for the elections?
-		</h2>
+		<div class=" bg-[#b02465] content-center w-[550px] rounded-[10px] p-2 m-2">
+			<pre class="whitespace-pre-wrap">
+			Partylists → Chi-square=3.281, p=0.773, dof=6
+			votes_cat     Low  Mid-Low  Mid-High  High
+			polarity_cat                              
+			Negative        0        1         1     1
+			Neutral         1        0         0     1
+			Positive        5        4         4     3 
+		</pre>
+		</div>
 
-		<figure class="flex flex-col justify-center">
-			<img class="self-center-safe rounded-2xl" src="{base}/image6.png" alt="Tone Counts Plot" />
-			<figcaption class="text-center font-light">
-				Figure 3. Tone counts across the entire dataset containing the sentiments of each tweet.
+		<div class=" bg-[#392cad] content-center w-[550px] rounded-[10px] p-2 m-2">
+			<pre class="whitespace-pre-wrap">
+			All → Chi-square=11.330, p=0.079, dof=6
+			votes_cat     Low  Mid-Low  Mid-High  High
+			polarity_cat                              
+			Negative        1        1         5     1
+			Neutral         1        0         1     2
+			Positive        7        7         2     5 
+		</pre>
+		</div>
+	</div>
+	</div>
+	
+	<div class="flex flex-row mb-20 bg-[#1b1757]">
+	<div >
+	<h2 class="underline text-[20px] p-2">Correlation Tests</h2>
+	<div class="flex flex-row  p-2">
+		<figure class="m-2">
+			<img
+				class="self-center-safe mb-2"
+				src="{base}/image1.png"
+				alt="Spearman's Rank Correlation Plot"
+			/>
+			<figcaption class="text-[10px]">
+				Figure 2. Spearman's Rank Correlation of Total Votes with respect to the Average Polarity of
+				Each Senatorial Candidate
 			</figcaption>
 		</figure>
+		
+		<figure class="m-2">
+			<img class="self-center-safe mb-2" src="{base}/image3.png" alt="Pearson Correlation Plot" />
+			<figcaption class="text-[10px]">
+				Figure 1. Pearson Correlation of Total Votes in Relation to the Average Polarity of Each
+				Senatorial Candidate
+			</figcaption>
+		</figure>
+	</div>
+	</div>
 
-		<figure class="flex flex-col justify-center">
-			<img class="self-center-safe rounded-2xl" src="{base}/image13.png" alt="Polarities Counts Plot" />
-			<figcaption class="text-center font-light">
+	<div class=" content-center bg-[#190a2f]">
+		<h2 class="underline text-[35px] text-center">Conclusion</h2>
+		<div class="flex flex-col text-center w-[365px] p-3">
+			<p>Pearson correlation coefficient (polarity vs votes): -0.2784966690117171 <br><br></p>
+			<p>Spearman correlation coefficient (polarity vs votes): -0.3678864219767173 <br><br></p>
+			<p>
+				Which is interpreted as a negative moderate correlation, therefore, we reject the null
+				hypothesis. (Research Gate, 2018)
+			</p>
+		</div>
+	</div>
+	</div>
+
+	<div class="content-center">
+	<h1 class="text-2xl text-center text-[40px] underline mb-[45px]">Our Research Questions</h1>
+		<h2 class="border-l-2 border-white text-xl w-[800px] p-4 ml-[80px]">
+			How did emotions impact the candidates to be chosen <br> for the elections?
+		</h2>
+	</div>
+
+		<div class="p-20">
+			<div class="flex flex-row  content-center">
+				<figure class=" border-r-2 border-b-2 border-amber-50 flex flex-col content-center">
+					<img class="" src="{base}/image6.png" alt="Tone Counts Plot" />
+					<figcaption class="text-center font-light text-[10px] p-2">
+						Figure 3. Tone counts across the entire dataset containing the sentiments of each tweet.
+					</figcaption>
+				</figure>
+
+				<div class="border-2 text-right w-[740px] p-3">
+					<p class="text-[20px]">
+						neutral is most common
+					</p>
+					<p>
+						<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					</p>
+			</div>
+			</div>
+		
+		<div class="flex flex-row h-[428px]">
+		<div class="border-2 text-right w-[880px] p-3">
+			<p class="text-[20px] text-left">
+				neutral is most common
+			</p>
+			<p class="text-left">
+				<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+			</p>
+		</div>
+
+		<div>
+		<figure class="border-l-2 border-t-2 border-amber-50 flex flex-col">
+			<img class="" src="{base}/image13.png" alt="Polarities Counts Plot" />
+			<figcaption class="text-center font-light text-[10px] p-2">
 				Figure 4. Counts of Polarities across the entire dataset containing the sentiments of each
 				tweet, colored by the tweet's associated tone.
 			</figcaption>
 		</figure>
+		</div>
+		</div>
+		</div>
 
-		<figure class="flex flex-col justify-center">
+		<p class="text-right underline text-[30px] p-3 mr-18">heatmaps on polarity</p>
+		<div class="p-20">
+
+		<div class=" flex flex-row">
+		<div class="border-l-2 border-b-2 border-amber-50 text-right w-[880px] p-5">
+			<p class="text-[20px] text-left underline">
+				emotions are conditional
+			</p>
+			<p class="text-left">
+				<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+			</p>
+		</div>
+
+		<figure class="flex flex-col justify-center p-8">
 			<img
-				class="self-center-safe rounded-2xl"
+				class="self-center-safe "
 				src="{base}/image9.png"
 				alt="Heatmap of Tone Instances for Winning Candidates"
 			/>
-			<figcaption class="text-center font-light">
+			<figcaption class="text-center font-light text-[10px] p-3">
 				Figure 5. Heatmap of the amount of instances of tone in relation to the subset of winning
 				senatorial candidates across all tweets.
 			</figcaption>
 		</figure>
+		</div>
 
-		<figure class="flex flex-col justify-center">
+		<div class="flex flex-row">
+		<div class="border-l-2 border-amber-50 text-right w-[755px] p-5">
+			<p class="text-[20px] text-left underline">
+				neutral is most common
+			</p>
+			<p class="text-left">
+				<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+			</p>
+		</div>
+
+		<figure class="flex flex-col justify-center p-8">
 			<img
-				class="self-center-safe rounded-2xl"
+				class="self-center-safe"
 				src="{base}/image2.png"
 				alt="Heatmap of Tone Instances for All Candidates"
 			/>
-			<figcaption class="text-center font-light">
+			<figcaption class="text-center font-light text-[10px] p-3">
 				Figure 6. Heatmap of the amount of instances of tone in relation to the partylists mentioned
 				across all tweets.
 			</figcaption>
 		</figure>
+		</div>
+		</div>
 
-		<h2 class="text-xl">
+		<h2 class="ml-[80px] border-l-2 border-amber-50 text-xl p-4">
 			What are the critical proponents that shape the decisions of Filipino voters over support for
 			a candidate?
 		</h2>
 
+		<div class=" p-15">
+		<div class="mb-[20px] flex flex-row">
+		
+		<div class="border-b-2 border-r-2 border-amber-50 p-5 w-[650px]">
+		<figure class="flex flex-col">
+			<img
+				class="self-center"
+				src="{base}/image4.png"
+				alt="Heatmap of Associated Words vs Average Polarity"
+			/>
+			<figcaption class="text-center font-light text-[10px] p-3">
+				Figure 8. A heatmap of the associated word of a tweet in relation to the mentioned <br>
+				senatorial candidate, with the heat being the average polarity of a user in the tweet.
+			</figcaption>
+		</figure>
+
+	
+		<div class=" text-right w-[500px]  p-5">
+		<p class="text-[20px] text-left underline">
+			neutral is most common
+		</p>
+		<p class="text-left w-[500px]">
+			<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+		</p>
+		</div>
+		</div>
+
+		<div class="border-b-2 border-amber-50 w-[525px]">
+		<figure class="flex flex-col">
+			<img
+				class="self-center"
+				src="{base}/image8.png"
+				alt="Heatmap of Associated Words vs Polarity"
+			/>
+			<figcaption class="text-center font-light text-[10px] p-3">
+				Figure 9. A heatmap of the associated word in a tweet in relation to the mentioned <br>
+				partylist, with the heat being the polarity of the said tweet.
+			</figcaption>
+		</figure>
+		
+
+		<div class=" text-right w-[500px] p-5">
+		<p class="text-[20px] text-left underline">
+			neutral is most common
+		</p>
+		<p class="text-left w-[500px]">
+			<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+		</p>
+		</div>
+		</div>
+		</div>
+
+		<div class="flex flex-row p-3">
 		<figure class="flex flex-col justify-center">
-			<img class="self-center-safe rounded-2xl" src="{base}/image5.png" alt="Word Cloud Plot" />
-			<figcaption class="text-center font-light">
+			<img class="self-center-safe" src="{base}/image5.png" alt="Word Cloud Plot" />
+			<figcaption class="text-center font-light text-[10px]">
 				Figure 7. A word cloud of the most mentioned words or phrases across the entire Tweets
 				Dataset.
 			</figcaption>
 		</figure>
 
-		<figure class="flex flex-col justify-center">
-			<img
-				class="self-center-safe rounded-2xl"
-				src="{base}/image4.png"
-				alt="Heatmap of Associated Words vs Average Polarity"
-			/>
-			<figcaption class="text-center font-light">
-				Figure 8. A heatmap of the associated word of a tweet in relation to the mentioned
-				senatorial candidate, with the heat being the average polarity of a user in the tweet.
-			</figcaption>
-		</figure>
+		<div class=" text-right p-5">
+		<p class="text-[20px] text-left underline">
+			neutral is most common
+		</p>
+		<p class="text-left w-[500px]">
+			<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+		</p>
+		</div>
+		</div>
+		</div>
 
-		<figure class="flex flex-col justify-center">
-			<img
-				class="self-center-safe rounded-2xl"
-				src="{base}/image8.png"
-				alt="Heatmap of Associated Words vs Polarity"
-			/>
-			<figcaption class="text-center font-light">
-				Figure 9. A heatmap of the associated word in a tweet in relation to the mentioned
-				partylist, with the heat being the polarity of the said tweet.
-			</figcaption>
-		</figure>
-
-		<h2 class="text-xl ">
-			How much did online social media sentiments influence actions over the elections?
+		<h2 class="ml-[80px] border-l-2 border-amber-50 text-xl p-4">
+			How much did online social media sentiments influence actions <br> over the elections?
 		</h2>
 
-		<figure class="flex flex-col justify-center">
+		<div class="p-20">
+		<div class="flex flex-row">
+
+		<figure class="flex flex-col justify-center border-b-2 border-amber-50 p-3">
 			<img
-				class="self-center-safe rounded-2xl"
+				class="self-center-safe"
 				src="{base}/image11.png"
 				alt="Heatmap of Perceived Judgement and Senatorial Candidates"
 			/>
-			<figcaption class="text-center font-light">
+			<figcaption class="text-center font-light text-[10px] p-3">
 				Figure 10. A heatmap of the perceived judgement of a user towards their mentioned senatorial
 				candidate in a tweet, with the heat being the amount of instances of that judgement per
 				candidate.
 			</figcaption>
 		</figure>
 
-		<figure class="flex flex-col justify-center">
+		<div class="border-l-2 border-b-2 border-amber-50 text-right p-5 w-[880px]">
+		<p class="text-[20px] text-left underline">
+			neutral is most common
+		</p>
+		<p class="text-left">
+			<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+		</p>
+		</div>
+
+		</div>
+
+		<div class="flex flex-row">
+		<figure class="flex flex-col justify-center p-3">
 			<img
-				class="self-center-safe rounded-2xl"
+				class="self-center-safe"
 				src="{base}/image7.png"
 				alt="Heatmap of Perceived Judgement and Partylists"
 			/>
-			<figcaption class="text-center font-light">
+			<figcaption class="text-center font-light text-[10px] p-3">
 				Figure 11. A heatmap of the perceived judgement of a user towards their mentioned partylist
 				in a tweet, with the heat being the amount of instances of that judgement per candidate.
 			</figcaption>
 		</figure>
 
+		<div class="border-l-2 border-amber-50 text-right p-5 w-[835px]">
+		<p class="text-[20px] text-left underline">
+			neutral is most common
+		</p>
+		<p class="text-left">
+			<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+		</p>
+		</div>
+		</div>
+		</div>
+
+		<h1 class="underline text-[30px] text-center mb-[10px]">candidate mentions</h1>
+		<p class="text-center mb-[50px]">
+			(The correlation tests done in the hypothesis testing earlier may also be used <br> for this
+			research question.)
+		</p>
+
+		<div>
+		<div class="flex flex-row">
 		<figure class="flex flex-col justify-center">
 			<img
-				class="self-center-safe rounded-2xl"
+				class="self-center-safe"
 				src="{base}/image12.png"
 				alt="Pie Chart of Senatorial Candidates Mentions"
 			/>
-			<figcaption class="text-center font-light">
+			<figcaption class="text-center font-light text-[10px] p-3">
 				Figure 12. A pie chart showing the percentage of senatorial candidates mentioned in relation
 				to the dataset (tweets containing mentioning a candidate), ordered by amount, candidates
 				with less than 3 mentions or past the top 10 are marked as others.
 			</figcaption>
 		</figure>
 
+		<div class="text-right p-5 w-[880px]">
+		<p class="text-[20px] text-left underline">
+			neutral is most common
+		</p>
+		<p class="text-left">
+			<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+		</p>
+		</div>
+
+		</div>
+
+		<div class="flex flex-row">
 		<figure class="flex flex-col justify-center">
 			<img
-				class="self-center-safe rounded-2xl"
+				class="self-center-safe"
 				src="{base}/image10.png"
 				alt="Pie Chart of Partylist Mentions"
 			/>
-			<figcaption class="text-center font-light">
+			<figcaption class="text-center font-light text-[10px] p-3">
 				Figure 13. A pie chart showing the percentage of partylists mentioned in relation to the
 				dataset (tweets containing a mention of a partylist), ordered by amount. With partylists
 				past the Top 10 being marked as 'others'.
 			</figcaption>
 		</figure>
 
-		<p>
-			The correlation tests done in the hypothesis testing earlier may also be used for this
-			research question.
+		<div class="text-right p-5 w-[880px]">
+		<p class="text-[20px] text-left underline">
+			neutral is most common
 		</p>
+		<p class="text-left">
+			<br>In the case that multiple candidates were mentioned in a tweet, a list will be returned containing the corresponding tone, polarity, and judgement per candidate mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed, price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+		</p>
+		</div>
 
-		<figure class="flex flex-col justify-center">
-			<img
-				class="self-center-safe rounded-2xl"
-				src="{base}/image3.png"
-				alt="Pearson Correlation of Total Votes vs Average Polarity"
-			/>
-			<figcaption class="text-center font-light">
-				Figure 14. Pearson Correlation of Total Votes in Relation to the Average Polarity of Each
-				Senatorial Candidate
-			</figcaption>
-		</figure>
+		</div>
+		
+		</div>
 
-		<figure class="flex flex-col justify-center">
-			<img
-				class="self-center-safe rounded-2xl"
-				src="{base}/image1.png"
-				alt="Spearman's Rank Correlation of Total Votes vs Average Polarity"
-			/>
-			<figcaption class="text-center font-light">
-				Figure 15. Spearman's Rank Correlation of Total Votes with respect to the Average Polarity
-				of Each Senatorial Candidate
-			</figcaption>
-		</figure>
-
-		<h2 class="text-xl">
+		<h2 class="mt-[50px] ml-[80px] border-l-2 border-amber-50 text-xl p-4">
 			Are we able to predict the influence of social media on nationwide elections?
 		</h2>
-		<p>To be answered in the modelling stage</p>
+		<p class="p-10 ml-[60px]">To be answered in the modelling stage</p>
 
-		<h2 class="mb-4 text-2xl ">References</h2>
-		<ul class="space-y-2">
-			<li>Artificial Analysis. (2025). Artificial analysis. https://artificialanalysis.ai/</li>
-			<li>
-				Research Gate. (2018). Interpretation of the Pearson's and Spearman's correlation
-				coefficients. Research Gate.
-				https://www.researchgate.net/figure/nterpretation-of-the-Pearsons-and-Spearmans-correlation-coefficients_tbl1_326885374
-			</li>
-		</ul>
-	</div>
+
+		<div class="bg-[#190a2f] w-[1350px] h-[150px]">
+			<p class="text-center p-[20px]">references found at documentation.</p>
+		</div>
 
 	<Particles className="absolute inset-0 -z-10" refresh={true} />
 </section>
