@@ -7,8 +7,7 @@
 	import '@tailwindplus/elements';
 </script>
 
-<div class="mt-7 flex flex-col items-center justify-center gap-50 md:flex-row">
-
+<div class="mt-7 flex flex-col items-center justify-center gap-50 md:flex-row font-[HomeVideo-ABLG6G] w-100% h-[70px] top-0 left-0 mb-0 absolute inset-0">
 	<el-dropdown class="inline-block relative z-50">
 		<button class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white/10 px-3 py-2 text-sm text-white inset-ring-1 inset-ring-white/5 hover:bg-white/20">
 		Our Datasets.
@@ -52,14 +51,3 @@
 <ModeWatcher defaultMode={'dark'} defaultTheme={'dark'} />
 {@render children()}
 <!-- <ThemeSwitcher /> -->
-
-<style>
-	.mt-7{
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 70px;
-		font-family: 'HomeVideo-ABLG6G';
-	}
-</style>

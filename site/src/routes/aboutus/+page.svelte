@@ -7,8 +7,6 @@
 	let { data }: PageProps = $props();
 </script>
 
-
-
 <section class="mt-30 mb-10 flex flex-col items-center justify-center gap-4 align-middle">
 	<h1 class="text-center text-7xl font-[HomeVideoBold-R90Dv] text-[55px]">About Us!</h1>
 	<p class="font-[HomeVideo-ABLG6G] text-center">Meet the people behind the data mess.</p>
