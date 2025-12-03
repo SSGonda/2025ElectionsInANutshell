@@ -15,7 +15,6 @@
 	<Button href="{base}/" size="sm" variant="outline" class="font-[HomeVideo-ABLG6G]">Go Back Home</Button>
 </section>
 
-
 <section class="font-[HomeVideo-ABLG6G]">
 	<div class="flex flex-row h-[500px] text-right mb-[95px] ml-[50px] mr-[50px]">
 		<div class="flex-1 content-center border-r-2 border-r-white">
