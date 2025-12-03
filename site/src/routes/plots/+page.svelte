@@ -72,11 +72,11 @@
 			EDA and Sentiment <br> analysis notebooks
 			</p>
 		</div>
-		<div class="text-right p-5">
+		<div class="text-right p-6">
 			Deepnote was opted to be used as this offered easier collaboration options and provided a
 			between 2 notebooks to access the same set of data at any time.
 			<br>
-			<Button href="https://deepnote.com/workspace/thing-a23c5647-fae1-450c-a5f9-b8d323581852/project/Stephens-Untitled-project-379262c2-f7d6-45ba-811e-59f3f72f9143/notebook/EDA2025MidtermHalalanSentimentAnalysisllama4maverick-c09ebae9fc814360b6c7f79efc6ae3d3" size="sm" variant="default" class="align-left m-5">Learn More</Button>
+			<Button href="https://deepnote.com/workspace/thing-a23c5647-fae1-450c-a5f9-b8d323581852/project/Stephens-Untitled-project-379262c2-f7d6-45ba-811e-59f3f72f9143/notebook/EDA2025MidtermHalalanSentimentAnalysisllama4maverick-c09ebae9fc814360b6c7f79efc6ae3d3" size="sm" variant="default" target="_blank" class="align-left m-5">Learn More</Button>
 		</div>
 	</div>
 

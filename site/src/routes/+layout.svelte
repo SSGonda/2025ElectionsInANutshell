@@ -18,10 +18,10 @@
 
 		<el-menu anchor="bottom end" popover class="w-56 origin-top-right rounded-md bg-gray-800 outline-1 -outline-offset-1 outline-white/10 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
 		<div class="py-1">
-			<a href="https://docs.google.com/spreadsheets/d/1Ykn95ViscmLPN8v35FGxlBQ2KsmpfoZlW5jwcOtovqc/edit?usp=sharing" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">Twitter Scrape Dataset Sheets</a>
-			<a href="https://docs.google.com/spreadsheets/d/1pQp_xS_fyuA6Ip2ZN7SniKVbvQIyRTvXlAOP03bqUhk/edit?usp=sharing" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">Senate Election Results Sheets</a>
-			<a href="https://github.com/SSGonda/2025ElectionsInANutshell/tree/main/dataset/raw_data/election_results" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">Partylist Election Results CSV</a>
-			<a href="https://github.com/SSGonda/2025ElectionsInANutshell/tree/main/dataset/" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">Dataset in Github Repository</a>
+			<a href="https://docs.google.com/spreadsheets/d/1Ykn95ViscmLPN8v35FGxlBQ2KsmpfoZlW5jwcOtovqc/edit?usp=sharing" target="_blank" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">Twitter Scrape Dataset Sheets</a>
+			<a href="https://docs.google.com/spreadsheets/d/1pQp_xS_fyuA6Ip2ZN7SniKVbvQIyRTvXlAOP03bqUhk/edit?usp=sharing" target="_blank" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">Senate Election Results Sheets</a>
+			<a href="https://github.com/SSGonda/2025ElectionsInANutshell/tree/main/dataset/raw_data/election_results" target="_blank" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">Partylist Election Results CSV</a>
+			<a href="https://github.com/SSGonda/2025ElectionsInANutshell/tree/main/dataset/" target="_blank" class="block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:text-white focus:outline-hidden">Dataset in Github Repository</a>
 		</div>
 		</el-menu>
 	</el-dropdown>
