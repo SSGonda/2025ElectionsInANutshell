@@ -16,8 +16,9 @@
 
 <section class="mx-auto max-w-7xl font-[HomeVideo-ABLG6G]">
 	<p class="mx-auto max-w-4xl">
-		Now knowing that some categories have a correlation with a candidates votes, let's try to create
-		a model for predicting a candidate's votes using the categories from the Sentiment Analysis.
+		Now knowing that some categories have a correlation with a senatorial candidates' votes, let's try to create
+		a model for predicting a candidate's votes using the categories from the Sentiment Analysis. Considering that partylists dont have
+		a correlation with a candidate's votes, a model will not be created.
 	</p>
 	<div class="p-20">
 		<div class="mx-20 mb-30 flex flex-row text-right">

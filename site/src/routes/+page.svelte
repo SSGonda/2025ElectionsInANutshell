@@ -33,9 +33,14 @@
 					And with positive emotions and opinions, it is seen that there is little to no correlation
 					with InFavor and Enjoyment Respectively. And with polarities, it is seen that there is a moderate
 					negative correlation with votes, indicating that candidates with negative polarities tend to
-					receive more votes, following the trend seen with negative emotions and opinions. As a whole,
-					it is seen that negative emotions and opinions along with having a 'middle-ground' exposure
-					tend to give more votes for a senatorial candidate.
+					receive more votes, following the trend seen with negative emotions and opinions.
+					<br />
+					A nutshell plot was not made for partylists, as it was found that all partylist categories have no
+					correlation to a partylist's votes, this may be from having a small amount of data for partylists from
+					the initial scraping done.
+					<br /><br />
+					As a whole, it is seen that having a good social media presence, especially when negative, or having a
+					neutral 'middle-ground' stance tend to give more votes for a senatorial candidate.
 				</p>
 			</div>
 		</div>
