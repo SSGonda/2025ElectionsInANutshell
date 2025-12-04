@@ -1,5 +1,5 @@
 <div class="relative h-screen px-6 py-28 lg:py-20">
-    <!-- Title and Caption -->
+	<!-- Title and Caption -->
 	<div class="flex justify-end gap-12">
 		<div class="z-10 mx-auto text-center lg:mr-0 lg:w-1/2 lg:text-left">
 			<div class="h-full">
@@ -17,7 +17,9 @@
 
 	<!-- Image -->
 
-	<div class="relative ml-20 md:ml-auto md:absolute inset-0 -mx-4 rounded-3xl p-3 md:block lg:col-span-3">
+	<div
+		class="relative inset-0 -mx-4 ml-20 rounded-3xl p-3 md:absolute md:ml-auto md:block lg:col-span-3"
+	>
 		<div class="relative opacity-40 lg:opacity-100">
 			<div class="absolute"></div>
 			<img class="hidden dark:block" src="/tvhero_transparent.png" alt="app illustration" />

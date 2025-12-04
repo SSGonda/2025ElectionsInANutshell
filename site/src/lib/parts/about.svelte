@@ -3,7 +3,10 @@
 	import { base } from '$app/paths';
 </script>
 
-<section id="about" class="mt-30 mb-10 flex flex-col items-center justify-center gap-4 align-middle">
+<section
+	id="about"
+	class="mt-30 mb-10 flex flex-col items-center justify-center gap-4 align-middle"
+>
 	<h1 class="text-center font-[HomeVideoBold-R90Dv] text-7xl text-[55px]">About Us!</h1>
 	<p class="text-center font-[HomeVideo-ABLG6G]">Meet the people behind the data mess.</p>
 	<Button href="#top" size="sm" variant="outline" class="font-[HomeVideo-ABLG6G]"

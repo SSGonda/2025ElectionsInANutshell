@@ -6,9 +6,7 @@
 </script>
 
 <main>
-	<section
-		id="top" class="mx-auto mt-10 max-w-5xl font-[HomeVideo-ABLG6G]"
-	>
+	<section id="top" class="mx-auto mt-10 max-w-5xl font-[HomeVideo-ABLG6G]">
 		<Hero />
 
 		<!-- Nutshell Plot -->

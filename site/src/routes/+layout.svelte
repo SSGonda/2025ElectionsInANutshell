@@ -8,9 +8,8 @@
 </script>
 
 <div
-	class="hidden sticky bg-background mx-auto inset-0 top-0 left-0 z-20 mb-0 md:flex h-[70px] flex-col items-center justify-center gap-20 font-[HomeVideo-ABLG6G] md:flex-row"
+	class="sticky inset-0 top-0 left-0 z-20 mx-auto mb-0 hidden h-[70px] flex-col items-center justify-center gap-20 bg-background font-[HomeVideo-ABLG6G] md:flex md:flex-row"
 >
-
 	<Button href="#top">Home</Button>
 	<DropdownMenu.Root>
 		<DropdownMenu.Trigger><Button variant="outline">Our Datasets</Button></DropdownMenu.Trigger>

@@ -12,31 +12,39 @@
 		of Social Media Exposure to the 2025 <br />
 		Philippine Midterm Election.
 	</p>
-    <Button href="#top" size="sm" variant="outline" class="font-[HomeVideo-ABLG6G]"
+	<Button href="#top" size="sm" variant="outline" class="font-[HomeVideo-ABLG6G]"
 		>Back to top</Button
 	>
 </section>
 
 <section class="mx-auto max-w-7xl font-[HomeVideo-ABLG6G]">
-	<div class="mb-30 mx-20 flex flex-row text-right">
+	<div class="mx-20 mb-30 flex flex-row text-right">
 		<div class="flex-1 content-center border-r-2 border-r-white">
 			<div class="m-2 flex">
-				<p class="text-center text-lg text-[#190a2f] bg-[#d9d9d9] py-0.5 rounded-lg px-4 mr-3">1.</p>
+				<p class="mr-3 rounded-lg bg-[#d9d9d9] px-4 py-0.5 text-center text-lg text-[#190a2f]">
+					1.
+				</p>
 				<p class="text-lg">the mentioned candidate or partylist</p>
 			</div>
 
 			<div class="m-2 flex">
-				<p class="text-center text-lg text-[#190a2f] bg-[#d9d9d9] py-0.5 rounded-lg px-4 mr-3">2.</p>
+				<p class="mr-3 rounded-lg bg-[#d9d9d9] px-4 py-0.5 text-center text-lg text-[#190a2f]">
+					2.
+				</p>
 				<p class="text-lg">the polarity of the tweet</p>
 			</div>
 
 			<div class="m-2 flex">
-				<p class="text-center text-lg text-[#190a2f] bg-[#d9d9d9] py-0.5 rounded-lg px-4 mr-3">3.</p>
+				<p class="mr-3 rounded-lg bg-[#d9d9d9] px-4 py-0.5 text-center text-lg text-[#190a2f]">
+					3.
+				</p>
 				<p class="text-lg">the tone of the tweet</p>
 			</div>
 
 			<div class="m-2 flex">
-				<p class="text-center text-lg text-[#190a2f] bg-[#d9d9d9] py-0.5 rounded-lg px-4 mr-3">4.</p>
+				<p class="mr-3 rounded-lg bg-[#d9d9d9] px-4 py-0.5 text-center text-lg text-[#190a2f]">
+					4.
+				</p>
 				<p class="text-lg">the 'perceived judgement' of a user</p>
 			</div>
 		</div>
@@ -109,7 +117,7 @@
 			</div>
 		</div>
 
-		<div class="content-center w-1/2">
+		<div class="w-1/2 content-center">
 			<h2 class="m-2 mb-3 underline">Normality Test</h2>
 			<div class=" m-2 content-center rounded-lg bg-[#d9d9d93f] p-2">
 				<pre class="whitespace-pre-wrap">
@@ -146,9 +154,9 @@
 		</div>
 	</div>
 
-	<div class="mb-20 flex flex-row bg-accent rounded-lg">
+	<div class="mb-20 flex flex-row rounded-lg bg-accent">
 		<div>
-			<h2 class="p-6 text-md underline">Correlation Tests</h2>
+			<h2 class="text-md p-6 underline">Correlation Tests</h2>
 			<div class="flex flex-row p-2">
 				<figure class="m-2">
 					<img
@@ -176,7 +184,7 @@
 			</div>
 		</div>
 
-		<div class="w-1/2 content-center bg-primary text-accent p-3">
+		<div class="w-1/2 content-center bg-primary p-3 text-accent">
 			<h2 class="text-center text-3xl underline">Conclusion</h2>
 			<div class="flex flex-col p-3 text-center">
 				<p>Pearson correlation coefficient (polarity vs votes): -0.2784966690117171 <br /><br /></p>
@@ -365,7 +373,7 @@
 				</figcaption>
 			</figure>
 
-			<div class=" p-5 text-right max-w-1/2">
+			<div class=" max-w-1/2 p-5 text-right">
 				<p class="text-left text-lg underline">neutral is most common</p>
 				<p class="text-left">
 					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
