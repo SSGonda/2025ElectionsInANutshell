@@ -3,6 +3,7 @@
 	import Hero from '$lib/parts/hero.svelte';
 	import About from '$lib/parts/about.svelte';
 	import Background from '$lib/parts/background.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <main>
@@ -12,7 +13,7 @@
 		<!-- Nutshell Plot -->
 		<div class="flex flex-wrap">
 			<div class="w-1/2">
-				<img class="" alt="tmp" src="/image1.png" />
+				<img class="" alt="tmp" src="{base}/image1.png" />
 			</div>
 
 			<div class="w-1/2 px-10">

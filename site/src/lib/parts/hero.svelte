@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <div class="relative h-screen px-6 py-28 lg:py-20">
 	<!-- Title and Caption -->
 	<div class="flex justify-end gap-12">
@@ -21,9 +25,7 @@
 		class="relative inset-0 -mx-4 ml-20 rounded-3xl p-3 md:absolute md:ml-auto md:block lg:col-span-3"
 	>
 		<div class="relative opacity-40 lg:opacity-100">
-			<div class="absolute"></div>
-			<img class="hidden dark:block" src="/tvhero_transparent.png" alt="app illustration" />
-			<img class="dark:hidden" src="/tvhero_transparent.png" alt="app illustration" />
+			<img src="{base}/tvhero_transparent.png" alt="app illustration" />
 		</div>
 	</div>
 </div>
