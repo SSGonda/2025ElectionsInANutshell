@@ -1,6 +1,10 @@
 <script lang="ts">
 	import Button from '$lib/components/ui/button/button.svelte';
 	import { base } from '$app/paths';
+	import CandidatesPie from '$lib/plots/candidates_pie.svelte';
+	import PartylistsPie from '$lib/plots/partylists_pie.svelte';
+	import ToneBar from '$lib/plots/tone_bar.svelte';
+	import PolaritiesBar from '$lib/plots/polarities_bar.svelte';
 </script>
 
 <section id="eda" class="mt-40 mb-10 flex flex-col items-center justify-center gap-4 align-middle">
@@ -68,21 +72,21 @@
 	</div>
 
 	<div class="mb-25 flex flex-row bg-accent inset-shadow-2xs">
-		<div class="w-385 content-center">
+		<div class="min-w-1/2 content-center">
 			<p class="border-r-2 border-r-accent-foreground text-center text-[40px]">
 				EDA and Sentiment <br /> analysis notebooks
 			</p>
 		</div>
 		<div class="p-6 text-right">
-			Deepnote was opted to be used as this offered easier collaboration options and provided a
-			between 2 notebooks to access the same set of data at any time.
+			We used Deepnote to perform our EDA and Sentiment Analysis, for sharing, we copied our
+			notebooks to Google Colab, as Deepnote did not have a 'anyone can view' option.
 			<br />
 			<Button
-				href="https://deepnote.com/workspace/thing-a23c5647-fae1-450c-a5f9-b8d323581852/project/Stephens-Untitled-project-379262c2-f7d6-45ba-811e-59f3f72f9143/notebook/EDA2025MidtermHalalanSentimentAnalysisllama4maverick-c09ebae9fc814360b6c7f79efc6ae3d3"
+				href="https://colab.research.google.com/drive/1WO7hBTd_YooUGeEUDEmEZZdoMO5__Ngt?usp=sharing"
 				size="sm"
 				variant="default"
 				target="_blank"
-				class="align-left m-5">Learn More</Button
+				class="align-left m-5">EDA notebook</Button
 			>
 		</div>
 	</div>
@@ -209,7 +213,8 @@
 	<div class="p-20">
 		<div class="flex flex-row content-center">
 			<figure class=" flex flex-col content-center border-r-2 border-b-2 border-accent">
-				<img class="" src="{base}/image6.png" alt="Tone Counts Plot" />
+				<!-- <img class="" src="{base}/image6.png" alt="Tone Counts Plot" /> -->
+				<ToneBar />
 				<figcaption class="p-2 text-center text-xs font-light">
 					Figure 3. Tone counts across the entire dataset containing the sentiments of each tweet.
 				</figcaption>
@@ -241,7 +246,8 @@
 
 			<div>
 				<figure class="flex flex-col border-t-2 border-l-2 border-accent">
-					<img class="" src="{base}/image13.png" alt="Polarities Counts Plot" />
+					<!-- <img class="" src="{base}/image13.png" alt="Polarities Counts Plot" /> -->
+					<PolaritiesBar />
 					<figcaption class="p-2 text-center text-xs font-light">
 						Figure 4. Counts of Polarities across the entire dataset containing the sentiments of
 						each tweet, colored by the tweet's associated tone.
@@ -453,11 +459,12 @@
 	<div>
 		<div class="flex flex-row">
 			<figure class="flex flex-col justify-center">
-				<img
+				<!-- <img
 					class="self-center-safe"
 					src="{base}/image12.png"
 					alt="Pie Chart of Senatorial Candidates Mentions"
-				/>
+				/> -->
+				<CandidatesPie />
 				<figcaption class="p-3 text-center text-[10px] font-light">
 					Figure 12. A pie chart showing the percentage of senatorial candidates mentioned in
 					relation to the dataset (tweets containing mentioning a candidate), ordered by amount,
@@ -466,24 +473,27 @@
 			</figure>
 
 			<div class="max-w-1/2 p-5 text-right">
-				<p class="text-left text-lg underline">neutral is most common</p>
+				<p class="text-left text-lg underline">Kiko and Bam.</p>
 				<p class="text-left">
-					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-					returned containing the corresponding tone, polarity, and judgement per candidate
-					mentioned in that tweet. The particular model,
-					meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-					price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					<br />Figure 12 shows the fractions of the mentions of senatorial candidates in the
+					dataset. It is seen in Figure 12 that Kiko and Bam had dominated their social media
+					prescence being followed by Heidi Mendoza Imee Marcos, and Bong Go. This may be from their
+					poularity in social media, especially in X (Twitter), where a lot of individuals that post
+					are the youth, which their campaign massively focuses on. These are then followed by Imee
+					Marcos and Bong Go, who are also popular candidates, known negatively or positively in
+					social media.
 				</p>
 			</div>
 		</div>
 
 		<div class="flex flex-row">
 			<figure class="flex flex-col justify-center">
-				<img
+				<!-- <img
 					class="self-center-safe"
 					src="{base}/image10.png"
 					alt="Pie Chart of Partylist Mentions"
-				/>
+				/> -->
+				<PartylistsPie />
 				<figcaption class="p-3 text-center text-[10px] font-light">
 					Figure 13. A pie chart showing the percentage of partylists mentioned in relation to the
 					dataset (tweets containing a mention of a partylist), ordered by amount. With partylists
@@ -492,13 +502,15 @@
 			</figure>
 
 			<div class="max-w-1/2 p-5 text-right">
-				<p class="text-left text-lg underline">neutral is most common</p>
+				<p class="text-left text-lg underline">A whole third.</p>
 				<p class="text-left">
-					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-					returned containing the corresponding tone, polarity, and judgement per candidate
-					mentioned in that tweet. The particular model,
-					meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-					price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					<br />Figure 13 shows the fractions of the partylists mentioned in the dataset. Where it
+					is seen that Duterte Youth takes 32.2% of the chart, followed by Makabayan, ml, and
+					Akbayan. The popularity of Duterte Youth may be attributed to the popularity of former
+					president Rodrigo Roa Duterte, which had a huge following in social media, albeit
+					controversial, taking in negative and positive emotions. The partylist that follow,
+					Makabayan, Ml, and Akbayan, may be attributed to the rise of the Youth in social media,
+					which these partylist heavily target, and are supported by, causing a great following.
 				</p>
 			</div>
 		</div>

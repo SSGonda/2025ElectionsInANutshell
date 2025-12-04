@@ -3,6 +3,9 @@
 	import Hero from '$lib/parts/hero.svelte';
 	import About from '$lib/parts/about.svelte';
 	import Background from '$lib/parts/background.svelte';
+	import Model from '$lib/parts/model.svelte';
+	import Discussion from '$lib/parts/discussion.svelte';
+	import Conclusion from '$lib/parts/conclusion.svelte';
 	import { base } from '$app/paths';
 </script>
 
@@ -12,22 +15,27 @@
 
 		<!-- Nutshell Plot -->
 		<div class="flex flex-wrap">
-			<div class="w-1/2">
-				<img class="" alt="tmp" src="{base}/image1.png" />
+			<div class="max-h-100 w-1/2 rounded-xl bg-[#1B181C] p-7">
+				<img alt="nutshell plot" src="{base}/nutshell.png" />
 			</div>
 
 			<div class="w-1/2 px-10">
 				<p class="text-2xl">What we Found...</p>
 				<p>
-					An overview on the effects and relationships of Social Media Exposure to the 2025
-					Philippine Midterm Election.An overview on the effects and relationships of Social Media
-					Exposure to the 2025 Philippine Midterm Election. An overview on the effects and
-					relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An
-					overview on the effects and relationships of Social Media Exposure to the 2025 Philippine
-					Midterm Election.An overview on the effects and relationships of Social Media Exposure to
-					the 2025 Philippine Midterm Election.An overview on the effects and relationships of
-					Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects
-					and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.
+					In a nutshell, we found that senatorial candidates with extreme negative emotions or have
+					negative opinions of have a substantial effect on a candidates votes, seeing the
+					correlation of Anger, Contempt, Sadness, Polarity, and OpposedTo, it is noticed that they
+					have moderate to strong positive correlations with their total amount of votes.
+					<br />
+					Interestingly, it is also seen that candidates who have Neutral tones and Unsure opinions also
+					have a moderate to strong positive correlation, indicating that a 'middle-ground' size-fits-all
+					candidate can be beneficial to attracting votes. <br />
+					And with positive emotions and opinions, it is seen that there is little to no correlation
+					with InFavor and Enjoyment Respectively. And with polarities, it is seen that there is a moderate
+					negative correlation with votes, indicating that candidates with negative polarities tend to
+					receive more votes, following the trend seen with negative emotions and opinions. As a whole,
+					it is seen that negative emotions and opinions along with having a 'middle-ground' exposure
+					tend to give more votes for a senatorial candidate.
 				</p>
 			</div>
 		</div>
@@ -37,5 +45,8 @@
 	</section>
 
 	<Eda />
+	<Model />
+	<Discussion />
+	<Conclusion />
 	<About />
 </main>

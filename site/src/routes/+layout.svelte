@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="sticky inset-0 top-0 left-0 z-20 mx-auto mb-0 hidden h-[70px] flex-col items-center justify-center gap-20 bg-background font-[HomeVideo-ABLG6G] md:flex md:flex-row"
+	class="sticky inset-0 top-0 left-0 z-20 mx-auto mb-0 hidden h-[70px] flex-col items-center justify-center gap-17 bg-background py-3 font-[HomeVideo-ABLG6G] md:flex md:flex-row"
 >
 	<Button href="#top">Home</Button>
 	<DropdownMenu.Root>
@@ -60,6 +60,8 @@
 	>
 		Documentation
 	</Button>
+
+	<Button href="#model" size="lg" variant="ghost" class="rounded-xl px-5">Model</Button>
 
 	<Button href="#about" size="lg" variant="ghost" class="rounded-xl px-5">About Us</Button>
 
