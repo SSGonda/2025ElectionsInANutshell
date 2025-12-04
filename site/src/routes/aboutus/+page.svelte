@@ -18,12 +18,11 @@
 	<img src="{base}/lance.jpg" class="w-100 h-100 border-2" alt="Lance Joseph D. Padilla"/>
 	<div class="border-2 p-10">
 		<h2 class="text-[30px]">Hi! I'm Lance</h2>
-		<h3>bs computer science | from the philippines</h3>
-		<p><br>In the case that multiple candidates were mentioned in a tweet, a list will be 
-		returned containing the corresponding tone, polarity, and judgement per candidate 
-		mentioned in that tweet. The particular model, meta-llama/llama-4-maverick-17b-128e-instruct, 
-		was used for its balance between speed, price, and accuracy based on its benchmarks on analysis 
-		(Artificial Index, 2025).</p>
+		<h3>bs computer science | chill guy</h3>
+		<p><br>Trying to survive the harsh environment of computer science. Most of my time is spent 
+		finishing academic tasks so I can graduate sooner. Aside from that, I enjoy producing music 
+		and discovering new sounds.
+		</p>
 		<Button href="https://www.facebook.com/ssep1234#" size="sm" variant="default" target="_blank" class="align-left mt-5">Contact Me</Button>
 		</div>
 	</div>
