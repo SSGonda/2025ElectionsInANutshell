@@ -27,7 +27,7 @@
 					<div
 						class="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"
 					></div>
-				
+
 					<!-- <div class="mx-auto max-w-7xl px-6">
 						<div class="text-center sm:mx-auto lg:mt-0 lg:mr-auto">
 							<div class="buttons">
@@ -65,7 +65,7 @@
 								</div>
  -->
 
-							<!-- <a
+					<!-- <a
 								href="https://docs.google.com/document/d/1IjmjmYrjMhwYYxZNAdXBEPlILsOEzoj4zs2tUN7Ju68/edit?usp=sharing"
 								target="_blank"
 								class="group mx-auto flex w-fit items-center gap-4 rounded-full border bg-muted p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 hover:bg-background dark:border-t-white/5 dark:shadow-zinc-950 dark:hover:border-t-border"
@@ -90,173 +90,211 @@
 									</div>
 								</div>
 							</a> -->
-						<!-- </div>
+					<!-- </div>
 						</div> -->
 
-						<div class="headertext">
-							<h1 class="mt-12">
-								<!-- <WordsPullUp
+					<div class="headertext">
+						<h1 class="mt-12">
+							<!-- <WordsPullUp
 									words="2025 Elections in a Nutshell."
 								/> -->
 
-								<p class="text-center">
-									2025 Elections in <br>a Nutshell.
-								</p>
-							</h1>
-
-							<p class="mx-auto mt-3 max-w-2xl text-lg text-center">
-								An overview on the effects and relationships <br> of Social Media Exposure to the 2025 <br>
-								Philippine Midterm Election.
+							<p class="text-center">
+								2025 Elections in <br />a Nutshell.
 							</p>
-							<Particles className="absolute inset-0 -z-10" refresh={true} />
-						</div>
+						</h1>
 
-						
+						<p class="mx-auto mt-3 max-w-2xl text-center text-lg">
+							An overview on the effects and relationships <br /> of Social Media Exposure to the
+							2025 <br />
+							Philippine Midterm Election.
+						</p>
+						<Particles className="absolute inset-0 -z-10" refresh={true} />
 					</div>
 				</div>
-				
-				<div class="nutshellplot">
-				
-					<div class="temp"></div>
+			</div>
 
-					<div class="nutshelltext">
-						<p class="nutshellheadtext">
-						What we Found...
-						</p>
-						<p>
-							An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.
-						</p>
-					</div>
+			<div class="nutshellplot">
+				<div class="temp"></div>
+
+				<div class="nutshelltext">
+					<p class="nutshellheadtext">What we Found...</p>
+					<p>
+						An overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election. An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election.An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.
+					</p>
 				</div>
+			</div>
 
-				
-				
-				<div class="mx-auto mt-10 grid w-full max-w-6xl grid-cols-1 gap-4 lg:grid-cols-3">
-					<WobbleCard
-						containerClass="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
-					>
-						<div class="max-w-xs">
-							<h2
-								class="text-left text-base font-semibold tracking-[-0.015em] text-balance text-white md:text-xl lg:text-3xl"
-							>
-								Background
-							</h2>
-							<p class="mt-4 text-left text-base/6 text-neutral-200">
-								Held on May 12, 2025, Halalan 2025 is the midterm election situated in the Republic
-								of the Philippines to determine the future officials to take hold of higher
-								authoritarian decisions under the term of President Bongbong Marcos. 317 seats in
-								the house of representatives, as well as 12 of the 24 seats in the senate were up
-								for undertaking to form the congress (Wikipedia, 2025).
-							</p>
-						</div>
-					</WobbleCard>
-					<WobbleCard containerClass="col-span-1 min-h-[300px]">
+			<div class="mx-auto mt-10 grid w-full max-w-6xl grid-cols-1 gap-4 lg:grid-cols-3">
+				<WobbleCard
+					containerClass="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
+				>
+					<div class="max-w-xs">
 						<h2
-							class="max-w-80 text-left text-base font-semibold tracking-[-0.015em] text-balance text-white md:text-xl lg:text-3xl"
+							class="text-left text-base font-semibold tracking-[-0.015em] text-balance text-white md:text-xl lg:text-3xl"
 						>
-							Research Questions.
+							Background
 						</h2>
-						<!-- <p class="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
+						<p class="mt-4 text-left text-base/6 text-neutral-200">
+							Held on May 12, 2025, Halalan 2025 is the midterm election situated in the Republic of
+							the Philippines to determine the future officials to take hold of higher authoritarian
+							decisions under the term of President Bongbong Marcos. 317 seats in the house of
+							representatives, as well as 12 of the 24 seats in the senate were up for undertaking
+							to form the congress (Wikipedia, 2025).
+						</p>
+					</div>
+				</WobbleCard>
+				<WobbleCard containerClass="col-span-1 min-h-[300px]">
+					<h2
+						class="max-w-80 text-left text-base font-semibold tracking-[-0.015em] text-balance text-white md:text-xl lg:text-3xl"
+					>
+						Research Questions.
+					</h2>
+					<!-- <p class="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
 						</p> -->
-						<ol>
-							<li>
-								How did emotions and user sentiments impact the candidates to be chosen for the
-								elections?
-							</li>
-							<li>
-								What are the critical proponents that shape the decisions of Filipino voters over
-								support for a candidate?
-							</li>
-							<li>
-								How much did online trolling submissions influence actions over the elections?
-							</li>
-							<li>Are we able to predict the influence of social media on nationwide elections?</li>
-						</ol>
-					</WobbleCard>
-					<WobbleCard
-						containerClass="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]"
-					>
-						<div class="max-w-sm">
-							<h2
-								class="max-w-sm text-left text-base font-semibold tracking-[-0.015em] text-balance text-white md:max-w-lg md:text-xl lg:text-3xl"
-							>
-								Proposed Solution.
-							</h2>
-							<p class="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-								We propose to enhance the magnification of these effects in correlation to the
-								results made by the elections to hopefully raise discussions on the relevance of
-								critical thinking and decision making.
-							</p>
-						</div>
-					</WobbleCard>
-					<WobbleCard
-						containerClass="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]"
-					>
-						<div class="max-w-sm">
-							<h2
-								class="max-w-sm text-left text-base font-semibold tracking-[-0.015em] text-balance text-white md:max-w-lg md:text-xl lg:text-3xl"
-							>
-								Hypotheses.
-							</h2>
-							<p class="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-								Null<br />
-								Social media sentiments have no significant level of influence on the likelihood of being
-								elected a Candidate during the 2025 Philippine National and Local Elections.
-								<br />
-								Alternative<br />
-								Social media sentiments have a significant level of influence on the likelihood of being
-								elected a Candidate during the 2025 Philippine National and Local Elections.
-							</p>
-						</div>
-					</WobbleCard>
-				</div>
-
-				<div class="eda">
-					<p class="edahead">Our EDA</p>
-					<div class="widetemp"></div>
-				</div>
-
-				<p class="inbetween">
-					An overview on the effects and relationships <br>
-					of Social Media Exposure to the 2025 <br>
-					Philippine Midterm Election. <br>
-				</p>
-
-				<div class="nutshellplot">
-		
-					<div class="temp1"></div>
-
-					<div class="nutshelltext1">
-						<p class="nutshellheadtext1">
-						say what???
-						</p>
-						<p>
-							An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.
+					<ol>
+						<li>
+							How did emotions and user sentiments impact the candidates to be chosen for the
+							elections?
+						</li>
+						<li>
+							What are the critical proponents that shape the decisions of Filipino voters over
+							support for a candidate?
+						</li>
+						<li>How much did online trolling submissions influence actions over the elections?</li>
+						<li>Are we able to predict the influence of social media on nationwide elections?</li>
+					</ol>
+				</WobbleCard>
+				<WobbleCard
+					containerClass="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]"
+				>
+					<div class="max-w-sm">
+						<h2
+							class="max-w-sm text-left text-base font-semibold tracking-[-0.015em] text-balance text-white md:max-w-lg md:text-xl lg:text-3xl"
+						>
+							Proposed Solution.
+						</h2>
+						<p class="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
+							We propose to enhance the magnification of these effects in correlation to the results
+							made by the elections to hopefully raise discussions on the relevance of critical
+							thinking and decision making.
 						</p>
 					</div>
+				</WobbleCard>
+				<WobbleCard
+					containerClass="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]"
+				>
+					<div class="max-w-sm">
+						<h2
+							class="max-w-sm text-left text-base font-semibold tracking-[-0.015em] text-balance text-white md:max-w-lg md:text-xl lg:text-3xl"
+						>
+							Hypotheses.
+						</h2>
+						<p class="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
+							Null<br />
+							Social media sentiments have no significant level of influence on the likelihood of being
+							elected a Candidate during the 2025 Philippine National and Local Elections.
+							<br />
+							Alternative<br />
+							Social media sentiments have a significant level of influence on the likelihood of being
+							elected a Candidate during the 2025 Philippine National and Local Elections.
+						</p>
+					</div>
+				</WobbleCard>
+			</div>
+
+			<div class="eda">
+				<p class="edahead">Our EDA</p>
+				<div class="widetemp"></div>
+			</div>
+
+			<p class="inbetween">
+				An overview on the effects and relationships <br />
+				of Social Media Exposure to the 2025 <br />
+				Philippine Midterm Election. <br />
+			</p>
+
+			<div class="nutshellplot">
+				<div class="temp1"></div>
+
+				<div class="nutshelltext1">
+					<p class="nutshellheadtext1">say what???</p>
+					<p>
+						An overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election. An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election.An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.
+					</p>
 				</div>
+			</div>
 
-				
-				<p class="notablefigures">some noteable figures.</p>
-				<div class="threepoints">
-					<div class="onepoint">
-						<div class="circ"></div>
-						<p class ="circtext">An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.</p>
-					</div>
-					<div class="onepoint">
-						<div class="circ"></div>
-						<p class ="circtext">An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.</p>
-					</div>
-					<div class="onepoint">
-						<div class="circ"></div>
-						<p class ="circtext">An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An overview on the effects and relationships of Social Media Exposure to the 2025 Philippine Midterm Election.</p>
-					</div>
-
+			<p class="notablefigures">some noteable figures.</p>
+			<div class="threepoints">
+				<div class="onepoint">
+					<div class="circ"></div>
+					<p class="circtext">
+						An overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election. An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election.An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.
+					</p>
 				</div>
+				<div class="onepoint">
+					<div class="circ"></div>
+					<p class="circtext">
+						An overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election. An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election.An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.
+					</p>
+				</div>
+				<div class="onepoint">
+					<div class="circ"></div>
+					<p class="circtext">
+						An overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election. An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election. An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.An overview on the effects and relationships of Social Media
+						Exposure to the 2025 Philippine Midterm Election.An overview on the effects and
+						relationships of Social Media Exposure to the 2025 Philippine Midterm Election.An
+						overview on the effects and relationships of Social Media Exposure to the 2025
+						Philippine Midterm Election.
+					</p>
+				</div>
+			</div>
 
-				<div class="end"></div>
+			<div class="end"></div>
 
-				<!-- <div class="relative mt-8 -mr-56 overflow-hidden px-2 sm:mt-12 sm:mr-0 md:mt-20">
+			<!-- <div class="relative mt-8 -mr-56 overflow-hidden px-2 sm:mt-12 sm:mr-0 md:mt-20">
 					<div
 						class="absolute inset-0 z-10 bg-linear-to-b from-transparent from-35% to-background"
 					></div>
@@ -280,24 +318,22 @@
 					</div>
 				</div>
 			</div> -->
-
-
 		</section>
 	</main>
 </div>
 
 <style>
-	.mt-12{
+	.mt-12 {
 		font-family: 'HomeVideoBold-R90Dv';
 		font-size: 55px;
 	}
 
-	.mx-auto{
+	.mx-auto {
 		font-family: 'HomeVideo-ABLG6G';
 	}
 
-	.hero{
-		background-image: url("/tvhero.png");
+	.hero {
+		background-image: url('/tvhero.png');
 		display: flex;
 		height: 100vh;
 		width: 100vw;
@@ -306,24 +342,24 @@
 		background-repeat: no-repeat;
 	}
 
-	.headertext{
+	.headertext {
 		position: absolute;
 		right: 50px;
 		bottom: 225px;
 	}
 
-	.text-center{
+	.text-center {
 		line-height: 0.9;
 	}
 
-	.nutshellplot{
+	.nutshellplot {
 		display: flex;
 		padding: 50px;
 		padding-bottom: 25px;
 	}
 
-	.temp1{
-		background-color: #190A2F;
+	.temp1 {
+		background-color: #190a2f;
 		height: 650px;
 		width: 642px;
 		border-radius: 10px;
@@ -331,7 +367,7 @@
 		float: right;
 	}
 
-	.nutshelltext1{
+	.nutshelltext1 {
 		text-align: right;
 		font-family: 'HomeVideo-ABLG6G';
 		padding-left: 10px;
@@ -339,23 +375,22 @@
 		margin-left: 15px;
 	}
 
-	.nutshellheadtext1{
+	.nutshellheadtext1 {
 		text-align: right;
 		margin: 20px;
 		font-family: 'HomeVideo-ABLG6G';
 		font-size: 30px;
-
 	}
 
-	.temp{
-		background-color: #190A2F;
+	.temp {
+		background-color: #190a2f;
 		height: 748px;
 		width: 642px;
 		border-radius: 10px;
 		flex-shrink: 0;
 	}
 
-	.nutshelltext{
+	.nutshelltext {
 		text-align: left;
 		font-family: 'HomeVideo-ABLG6G';
 		padding-left: 10px;
@@ -363,16 +398,15 @@
 		margin-left: 15px;
 	}
 
-	.nutshellheadtext{
+	.nutshellheadtext {
 		text-align: left;
 		margin: 20px;
 		font-family: 'HomeVideo-ABLG6G';
 		font-size: 30px;
-
 	}
 
-	.widetemp{
-		background-color: #190A2F;
+	.widetemp {
+		background-color: #190a2f;
 		height: 350px;
 		width: 1440px;
 		border-radius: 10px;
@@ -385,36 +419,36 @@
 		font-size: 30px;
 		margin-top: 55px;
 	}
-	
-	.inbetween{
+
+	.inbetween {
 		text-align: center;
 		margin: 20px;
 		font-family: 'HomeVideo-ABLG6G';
 		font-size: 15px;
 	}
 
-	.threepoints{
+	.threepoints {
 		display: flex;
 		flex-direction: row;
 		margin-top: 55px;
 	}
 
-	.onepoint{
+	.onepoint {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-items: center;
 	}
 
-	.circ{
+	.circ {
 		border-radius: 50%;
-		background-color: #D9D9D9;
+		background-color: #d9d9d9;
 		width: 250px;
 		height: 250px;
 		display: flex;
 	}
 
-	.circtext{
+	.circtext {
 		font-family: 'HomeVideo-ABLG6G';
 		font-size: 12px;
 		text-align: center;
@@ -422,7 +456,7 @@
 		padding: 30px;
 	}
 
-	.notablefigures{
+	.notablefigures {
 		font-family: 'HomeVideo-ABLG6G';
 		font-size: 35px;
 		text-align: center;
@@ -430,8 +464,8 @@
 		text-decoration: underline;
 	}
 
-	.end{
-		background-color: #190A2F;
+	.end {
+		background-color: #190a2f;
 		height: 150px;
 		width: 1440px;
 		border-radius: 10px;
