@@ -221,7 +221,7 @@
 			</figure>
 
 			<div class="w-1/2 border-2 p-3 text-right">
-				<p class="text-lg">neutral is most common</p>
+				<p class="text-lg">neutral is most common tone</p>
 				<p>
 					<br /> For Figure 3, most tweets showed a neutral tone, followed by enjoyment, contempt, 
 					anger, disgust, sadness, surprise, and fear. This suggests that online discourse was 
@@ -234,7 +234,7 @@
 
 		<div class="flex flex-row">
 			<div class="w-1/2 border-2 p-3 text-right">
-				<p class="text-left text-lg">neutral is most common</p>
+				<p class="text-left text-lg">mostly positive polarity</p>
 				<p class="text-left">
 					<br />Figure 4 shows how tweet polarities are distributed across emotional tones. 
 					Neutral polarity appears most often, especially with neutral and enjoyment tones, 
@@ -286,7 +286,7 @@
 
 		<div class="flex flex-row">
 			<div class="w-1/2 border-l-2 border-accent p-5 text-right">
-				<p class="text-left text-lg underline">emotions are conditional</p>
+				<p class="text-left text-lg underline">tones are relative</p>
 				<p class="text-left">
 					<br />Figure 6 presents a heatmap of emotional tones in tweets mentioning 
 					partylists. For Duterte Youth, anger and contempt are most common, with 
