@@ -333,13 +333,13 @@
 				</figure>
 
 				<div class="p-5 text-right">
-					<p class="text-left text-lg underline">neutral is most common</p>
+					<p class="text-left text-lg underline">same words, different emotions</p>
 					<p class="text-left">
-						<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-						returned containing the corresponding tone, polarity, and judgement per candidate
-						mentioned in that tweet. The particular model,
-						meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-						price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+						<br />Figure 8 showcases words parsed by the AI model that features a 
+						correlation with respect to a mentioned candidate. For representative heidi 
+						mendoza, an associated word relating to their persona was 'singer-songwriter', 
+						with a negative polarity. The word 'bisaya' had differing polarities for each 
+						candidate, with arlene brosas obtaining negative polarity and positive polarity for Ben Tulfo.
 					</p>
 				</div>
 			</div>
@@ -359,13 +359,15 @@
 				</figure>
 
 				<div class="p-5 text-right">
-					<p class="text-left text-lg underline">neutral is most common</p>
+					<p class="text-left text-lg underline">1 partylist 1 word</p>
 					<p class="text-left">
-						<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-						returned containing the corresponding tone, polarity, and judgement per candidate
-						mentioned in that tweet. The particular model,
-						meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-						price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+						<br />The graph showcases similar context from Figure 8 but 
+						for comments featuring mentions of partylists. For figure 9, 
+						'legacy' had negative polarities for duterte youth whilst being 
+						positive for mamamayang liberal (ml) partylist. The word 'problema' 
+						also had differing polarities for bayan muna and makabayan partylist, 
+						having negative and positive polarities respectively. Other polarities 
+						had harmonious collerations with respect to the words they are associated with.
 					</p>
 				</div>
 			</div>
@@ -381,13 +383,11 @@
 			</figure>
 
 			<div class=" max-w-1/2 p-5 text-right">
-				<p class="text-left text-lg underline">neutral is most common</p>
+				<p class="text-left text-lg underline">halalan 2025?!!</p>
 				<p class="text-left">
-					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-					returned containing the corresponding tone, polarity, and judgement per candidate
-					mentioned in that tweet. The particular model,
-					meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-					price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					<br />Figure 7 forecasts a word cloud in correspondence of the most 
+					frequent words mentioned by users. Candidates including kiko pangilinan, 
+					bam aquino, and duterte having larger prevalence over most candidates in the graph.
 				</p>
 			</div>
 		</div>
@@ -413,13 +413,13 @@
 			</figure>
 
 			<div class="max-w-1/2 border-b-2 border-l-2 border-accent p-5 text-right">
-				<p class="text-left text-lg underline">neutral is most common</p>
+				<p class="text-left text-lg underline">kiko x bam</p>
 				<p class="text-left">
-					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-					returned containing the corresponding tone, polarity, and judgement per candidate
-					mentioned in that tweet. The particular model,
-					meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-					price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					<br />Figure 10 showcases the count of mentions in perceived judgement 
+					towards a candidate. For most representatives, frequency lies at around 
+					20-40, with the exception of kiko pangilinan and bam aquino gaining 100-120 
+					counts of perceived judgements ruled in favor. Imee marcos also gained significant 
+					traction of opposition, ranging from 40-60 mentions for netizens.
 				</p>
 			</div>
 		</div>
@@ -439,13 +439,13 @@
 			</figure>
 
 			<div class="max-w-1/2 border-l-2 border-accent p-5 text-right">
-				<p class="text-left text-lg underline">neutral is most common</p>
+				<p class="text-left text-lg underline">the plot thickens</p>
 				<p class="text-left">
-					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-					returned containing the corresponding tone, polarity, and judgement per candidate
-					mentioned in that tweet. The particular model,
-					meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-					price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					<br />Figure 11 features perceived judgement for partylists 
+					in relation to the amount of mentions based on a user's judgement. 
+					Makabayan, duterte youth, and akbayan partylists earned high mentions 
+					of judgement towards favor of the group with noticeable oppositions 
+					from the pbbm partylist. 
 				</p>
 			</div>
 		</div>
