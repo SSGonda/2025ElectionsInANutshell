@@ -336,10 +336,10 @@
 					<p class="text-left text-lg underline">same words, different emotions</p>
 					<p class="text-left">
 						<br />Figure 8 showcases words parsed by the AI model that features a 
-						correlation with respect to a mentioned candidate. For representative heidi 
-						mendoza, an associated word relating to their persona was 'singer-songwriter', 
-						with a negative polarity. The word 'bisaya' had differing polarities for each 
+						correlation with respect to a mentioned candidate. The word 'bisaya' had differing polarities for each 
 						candidate, with arlene brosas obtaining negative polarity and positive polarity for Ben Tulfo.
+						These findings suggest factors relating to the candidate's reputation and past media records,
+						which further impact how people online perceive the individuals.
 					</p>
 				</div>
 			</div>
@@ -359,7 +359,7 @@
 				</figure>
 
 				<div class="p-5 text-right">
-					<p class="text-left text-lg underline">1 partylist 1 word</p>
+					<p class="text-left text-lg underline">1 partylist = 1 word</p>
 					<p class="text-left">
 						<br />The graph showcases similar context from Figure 8 but 
 						for comments featuring mentions of partylists. For figure 9, 
@@ -367,7 +367,10 @@
 						positive for mamamayang liberal (ml) partylist. The word 'problema' 
 						also had differing polarities for bayan muna and makabayan partylist, 
 						having negative and positive polarities respectively. Other polarities 
-						had harmonious collerations with respect to the words they are associated with.
+						had harmonious collerations with respect to the words they are associated with. The graph
+						implies that collective impressions from the media may have been used under different contexts, 
+						factors such as word usage as nouns, adverbs, or adjectives, being used to ascertain associated words, reflecting
+						different polarities for each organization.
 					</p>
 				</div>
 			</div>
@@ -419,7 +422,9 @@
 					towards a candidate. For most representatives, frequency lies at around 
 					20-40, with the exception of kiko pangilinan and bam aquino gaining 100-120 
 					counts of perceived judgements ruled in favor. Imee marcos also gained significant 
-					traction of opposition, ranging from 40-60 mentions for netizens.
+					traction of opposition, ranging from 40-60 mentions for netizens. The contrasting favors toward
+					candidates merited higher frequencies, implying a stronger connection to high emotions being a 
+					strong driver for engagement; whether positive or negative.
 				</p>
 			</div>
 		</div>
@@ -444,8 +449,9 @@
 					<br />Figure 11 features perceived judgement for partylists 
 					in relation to the amount of mentions based on a user's judgement. 
 					Makabayan, duterte youth, and akbayan partylists earned high mentions 
-					of judgement towards favor of the group with noticeable oppositions 
-					from the pbbm partylist. 
+					of judgement towards favor with noticeable oppositions 
+					for the pbbm partylist. This graph showed significant contrast towards the sentiments on 
+					Figure 9, which could further imply the correlations on negative judgement over favorability. 
 				</p>
 			</div>
 		</div>
@@ -520,7 +526,7 @@
 	<h2 class="mt-[50px] ml-20 border-l-2 border-accent p-4 text-xl">
 		Are we able to predict the influence of social media on nationwide elections?
 	</h2>
-	<p class="ml-20 p-10">To be answered in the modelling stage</p>
+	<p class="ml-20 p-10">Scroll to find out ;)</p>
 
 	<div class="bg-primary text-accent">
 		<p class="p-lg text-center">references found at documentation.</p>
