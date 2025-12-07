@@ -223,11 +223,11 @@
 			<div class="w-1/2 border-2 p-3 text-right">
 				<p class="text-lg">neutral is most common</p>
 				<p>
-					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-					returned containing the corresponding tone, polarity, and judgement per candidate
-					mentioned in that tweet. The particular model,
-					meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-					price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					<br /> For Figure 3, most tweets showed a neutral tone, followed by enjoyment, contempt, 
+					anger, disgust, sadness, surprise, and fear. This suggests that online discourse was 
+					largely in the middle ground, balancing between negative and positive emotions, with 
+					neutral tones possibly reflecting a tendency toward more factual or 
+					evidence-based commentary.
 				</p>
 			</div>
 		</div>
@@ -236,11 +236,11 @@
 			<div class="w-1/2 border-2 p-3 text-right">
 				<p class="text-left text-lg">neutral is most common</p>
 				<p class="text-left">
-					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-					returned containing the corresponding tone, polarity, and judgement per candidate
-					mentioned in that tweet. The particular model,
-					meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-					price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					<br />Figure 4 shows how tweet polarities are distributed across emotional tones. 
+					Neutral polarity appears most often, especially with neutral and enjoyment tones, 
+					while negative polarity is more associated with anger and contempt. This suggests 
+					that tweets with balanced or mildly positive sentiment were more common, and 
+					those with strong negative polarity tended to carry more intense emotions.
 				</p>
 			</div>
 
