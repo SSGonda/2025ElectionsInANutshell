@@ -263,11 +263,11 @@
 			<div class="w-1/2 border-b-2 border-l-2 border-accent p-5 text-right">
 				<p class="text-left text-lg underline">emotions are conditional</p>
 				<p class="text-left">
-					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-					returned containing the corresponding tone, polarity, and judgement per candidate
-					mentioned in that tweet. The particular model,
-					meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-					price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					<br />The heatmap in Figure 5 shows the emotional tones of tweets 
+					mentioning senatorial candidates. Neutral is most common, especially 
+					for Kiko Pangilinan and Bam Aquino, who also appear with enjoyment. 
+					Imee Marcos has fewer mentions, showing neutral along with some anger and contempt. 
+					Other candidates are linked with scattered tones, with fewer appearances of the other tones.
 				</p>
 			</div>
 
@@ -286,13 +286,14 @@
 
 		<div class="flex flex-row">
 			<div class="w-1/2 border-l-2 border-accent p-5 text-right">
-				<p class="text-left text-lg underline">neutral is most common</p>
+				<p class="text-left text-lg underline">emotions are conditional</p>
 				<p class="text-left">
-					<br />In the case that multiple candidates were mentioned in a tweet, a list will be
-					returned containing the corresponding tone, polarity, and judgement per candidate
-					mentioned in that tweet. The particular model,
-					meta-llama/llama-4-maverick-17b-128e-instruct, was used for its balance between speed,
-					price, and accuracy based on its benchmarks on analysis (Artificial Index, 2025).
+					<br />Figure 6 presents a heatmap of emotional tones in tweets mentioning 
+					partylists. For Duterte Youth, anger and contempt are most common, with 
+					some neutral and enjoyment also appearing. Makabayan, ML, Akbayan, BBM, 
+					Kabataan, Bayan Muna, Magdalo, PBBM, Patrol, ACT-CIS, and ACT Teachers are mostly 
+					associated with neutral and enjoyment tones, showing fewer of the other tones. 
+					The remaining mentioned partylists are characterized primarily by neutral tones.
 				</p>
 			</div>
 
