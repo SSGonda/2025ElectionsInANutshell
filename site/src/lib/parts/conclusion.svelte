@@ -16,7 +16,13 @@
 
 <section class="mx-auto max-w-7xl font-[HomeVideo-ABLG6G]">
 	<p class="mx-auto max-w-4xl">
-		Now knowing that some categories have a correlation with a candidates votes, let's try to create
-		a model for predicting a candidate's votes using the categories from the Sentiment Analysis.
+		In conclusion, the study highlights the measurable role of social media 
+		discourse in shaping electoral outcomes during the 2025 Philippine 
+		midterm elections. The patterns observed emphasize that online 
+		sentiment is not merely background noise but a factor that interacts 
+		with voter behavior and candidate visibility. In the end, the 
+		influence of social media today reaches far beyond daily 
+		conversations, extending into the electoral process and shaping 
+		the future direction of the nation.
 	</p>
 </section>
