@@ -223,11 +223,10 @@
 			<div class="w-1/2 border-2 p-3 text-right">
 				<p class="text-lg">neutral is most common tone</p>
 				<p>
-					<br /> For Figure 3, most tweets showed a neutral tone, followed by enjoyment, contempt, 
-					anger, disgust, sadness, surprise, and fear. This suggests that online discourse was 
-					largely in the middle ground, balancing between negative and positive emotions, with 
-					neutral tones possibly reflecting a tendency toward more factual or 
-					evidence-based commentary.
+					<br /> For Figure 3, most tweets showed a neutral tone, followed by enjoyment, contempt, anger,
+					disgust, sadness, surprise, and fear. This suggests that online discourse was largely in the
+					middle ground, balancing between negative and positive emotions, with neutral tones possibly
+					reflecting a tendency toward more factual or evidence-based commentary.
 				</p>
 			</div>
 		</div>
@@ -236,11 +235,11 @@
 			<div class="w-1/2 border-2 p-3 text-right">
 				<p class="text-left text-lg">mostly positive polarity</p>
 				<p class="text-left">
-					<br />Figure 4 shows how tweet polarities are distributed across emotional tones. 
-					Neutral polarity appears most often, especially with neutral and enjoyment tones, 
-					while negative polarity is more associated with anger and contempt. This suggests 
-					that tweets with balanced or mildly positive sentiment were more common, and 
-					those with strong negative polarity tended to carry more intense emotions.
+					<br />Figure 4 shows how tweet polarities are distributed across emotional tones. Neutral
+					polarity appears most often, especially with neutral and enjoyment tones, while negative
+					polarity is more associated with anger and contempt. This suggests that tweets with
+					balanced or mildly positive sentiment were more common, and those with strong negative
+					polarity tended to carry more intense emotions.
 				</p>
 			</div>
 
@@ -263,11 +262,11 @@
 			<div class="w-1/2 border-b-2 border-l-2 border-accent p-5 text-right">
 				<p class="text-left text-lg underline">emotions are conditional</p>
 				<p class="text-left">
-					<br />The heatmap in Figure 5 shows the emotional tones of tweets 
-					mentioning senatorial candidates. Neutral is most common, especially 
-					for Kiko Pangilinan and Bam Aquino, who also appear with enjoyment. 
-					Imee Marcos has fewer mentions, showing neutral along with some anger and contempt. 
-					Other candidates are linked with scattered tones, with fewer appearances of the other tones.
+					<br />The heatmap in Figure 5 shows the emotional tones of tweets mentioning senatorial
+					candidates. Neutral is most common, especially for Kiko Pangilinan and Bam Aquino, who
+					also appear with enjoyment. Imee Marcos has fewer mentions, showing neutral along with
+					some anger and contempt. Other candidates are linked with scattered tones, with fewer
+					appearances of the other tones.
 				</p>
 			</div>
 
@@ -288,12 +287,12 @@
 			<div class="w-1/2 border-l-2 border-accent p-5 text-right">
 				<p class="text-left text-lg underline">tones are relative</p>
 				<p class="text-left">
-					<br />Figure 6 presents a heatmap of emotional tones in tweets mentioning 
-					partylists. For Duterte Youth, anger and contempt are most common, with 
-					some neutral and enjoyment also appearing. Makabayan, ML, Akbayan, BBM, 
-					Kabataan, Bayan Muna, Magdalo, PBBM, Patrol, ACT-CIS, and ACT Teachers are mostly 
-					associated with neutral and enjoyment tones, showing fewer of the other tones. 
-					The remaining mentioned partylists are characterized primarily by neutral tones.
+					<br />Figure 6 presents a heatmap of emotional tones in tweets mentioning partylists. For
+					Duterte Youth, anger and contempt are most common, with some neutral and enjoyment also
+					appearing. Makabayan, ML, Akbayan, BBM, Kabataan, Bayan Muna, Magdalo, PBBM, Patrol,
+					ACT-CIS, and ACT Teachers are mostly associated with neutral and enjoyment tones, showing
+					fewer of the other tones. The remaining mentioned partylists are characterized primarily
+					by neutral tones.
 				</p>
 			</div>
 
@@ -335,11 +334,11 @@
 				<div class="p-5 text-right">
 					<p class="text-left text-lg underline">same words, different emotions</p>
 					<p class="text-left">
-						<br />Figure 8 showcases words parsed by the AI model that features a 
-						correlation with respect to a mentioned candidate. The word 'bisaya' had differing polarities for each 
-						candidate, with arlene brosas obtaining negative polarity and positive polarity for Ben Tulfo.
-						These findings suggest factors relating to the candidate's reputation and past media records,
-						which further impact how people online perceive the individuals.
+						<br />Figure 8 showcases words parsed by the AI model that features a correlation with
+						respect to a mentioned candidate. The word 'bisaya' had differing polarities for each
+						candidate, with arlene brosas obtaining negative polarity and positive polarity for Ben
+						Tulfo. These findings suggest factors relating to the candidate's reputation and past
+						media records, which further impact how people online perceive the individuals.
 					</p>
 				</div>
 			</div>
@@ -361,16 +360,15 @@
 				<div class="p-5 text-right">
 					<p class="text-left text-lg underline">1 partylist = 1 word</p>
 					<p class="text-left">
-						<br />The graph showcases similar context from Figure 8 but 
-						for comments featuring mentions of partylists. For figure 9, 
-						'legacy' had negative polarities for duterte youth whilst being 
-						positive for mamamayang liberal (ml) partylist. The word 'problema' 
-						also had differing polarities for bayan muna and makabayan partylist, 
-						having negative and positive polarities respectively. Other polarities 
-						had harmonious collerations with respect to the words they are associated with. The graph
-						implies that collective impressions from the media may have been used under different contexts, 
-						factors such as word usage as nouns, adverbs, or adjectives, being used to ascertain associated words, reflecting
-						different polarities for each organization.
+						<br />The graph showcases similar context from Figure 8 but for comments featuring
+						mentions of partylists. For figure 9, 'legacy' had negative polarities for duterte youth
+						whilst being positive for mamamayang liberal (ml) partylist. The word 'problema' also
+						had differing polarities for bayan muna and makabayan partylist, having negative and
+						positive polarities respectively. Other polarities had harmonious collerations with
+						respect to the words they are associated with. The graph implies that collective
+						impressions from the media may have been used under different contexts, factors such as
+						word usage as nouns, adverbs, or adjectives, being used to ascertain associated words,
+						reflecting different polarities for each organization.
 					</p>
 				</div>
 			</div>
@@ -388,9 +386,9 @@
 			<div class=" max-w-1/2 p-5 text-right">
 				<p class="text-left text-lg underline">halalan 2025?!!</p>
 				<p class="text-left">
-					<br />Figure 7 forecasts a word cloud in correspondence of the most 
-					frequent words mentioned by users. Candidates including kiko pangilinan, 
-					bam aquino, and duterte having larger prevalence over most candidates in the graph.
+					<br />Figure 7 forecasts a word cloud in correspondence of the most frequent words
+					mentioned by users. Candidates including kiko pangilinan, bam aquino, and duterte having
+					larger prevalence over most candidates in the graph.
 				</p>
 			</div>
 		</div>
@@ -418,13 +416,13 @@
 			<div class="max-w-1/2 border-b-2 border-l-2 border-accent p-5 text-right">
 				<p class="text-left text-lg underline">kiko x bam</p>
 				<p class="text-left">
-					<br />Figure 10 showcases the count of mentions in perceived judgement 
-					towards a candidate. For most representatives, frequency lies at around 
-					20-40, with the exception of kiko pangilinan and bam aquino gaining 100-120 
-					counts of perceived judgements ruled in favor. Imee marcos also gained significant 
-					traction of opposition, ranging from 40-60 mentions for netizens. The contrasting favors toward
-					candidates merited higher frequencies, implying a stronger connection to high emotions being a 
-					strong driver for engagement; whether positive or negative.
+					<br />Figure 10 showcases the count of mentions in perceived judgement towards a
+					candidate. For most representatives, frequency lies at around 20-40, with the exception of
+					kiko pangilinan and bam aquino gaining 100-120 counts of perceived judgements ruled in
+					favor. Imee marcos also gained significant traction of opposition, ranging from 40-60
+					mentions for netizens. The contrasting favors toward candidates merited higher
+					frequencies, implying a stronger connection to high emotions being a strong driver for
+					engagement; whether positive or negative.
 				</p>
 			</div>
 		</div>
@@ -446,12 +444,11 @@
 			<div class="max-w-1/2 border-l-2 border-accent p-5 text-right">
 				<p class="text-left text-lg underline">the plot thickens</p>
 				<p class="text-left">
-					<br />Figure 11 features perceived judgement for partylists 
-					in relation to the amount of mentions based on a user's judgement. 
-					Makabayan, duterte youth, and akbayan partylists earned high mentions 
-					of judgement towards favor with noticeable oppositions 
-					for the pbbm partylist. This graph showed significant contrast towards the sentiments on 
-					Figure 9, which could further imply the correlations on negative judgement over favorability. 
+					<br />Figure 11 features perceived judgement for partylists in relation to the amount of
+					mentions based on a user's judgement. Makabayan, duterte youth, and akbayan partylists
+					earned high mentions of judgement towards favor with noticeable oppositions for the pbbm
+					partylist. This graph showed significant contrast towards the sentiments on Figure 9,
+					which could further imply the correlations on negative judgement over favorability.
 				</p>
 			</div>
 		</div>

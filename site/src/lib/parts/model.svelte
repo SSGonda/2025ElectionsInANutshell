@@ -16,9 +16,10 @@
 
 <section class="mx-auto max-w-7xl font-[HomeVideo-ABLG6G]">
 	<p class="mx-auto max-w-4xl">
-		Now knowing that some categories have a correlation with a senatorial candidates' votes, let's try to create
-		a model for predicting a candidate's votes using the categories from the Sentiment Analysis. Considering that partylists dont have
-		a correlation with a candidate's votes, a model will not be created.
+		Now knowing that some categories have a correlation with a senatorial candidates' votes, let's
+		try to create a model for predicting a candidate's votes using the categories from the Sentiment
+		Analysis. Considering that partylists dont have a correlation with a candidate's votes, a model
+		will not be created.
 	</p>
 	<div class="p-20">
 		<div class="mx-20 mb-30 flex flex-row text-right">
@@ -121,7 +122,7 @@
 			</div>
 		</div>
 
-		<div class="flex flex-row">
+		<div class="mb-20 flex flex-row">
 			<div class="min-w-1/2 border-2 p-3 text-right">
 				<p class="text-left text-lg">How does it perform?</p>
 				<p class="text-left">
@@ -160,5 +161,24 @@
 				</figure>
 			</div>
 		</div>
+
+		<h3 class="text-center text-4xl">Implications and What can we do better?</h3>
+		<p class="text-left">
+			<br /> With the model developed, we can perform insights on scraped twitter data with the
+			exact features used to train the model, and use these values to 'predict' the votes of each
+			candidate as a whole from all the tweets scraped or gathered.
+			<br /><br />
+			As an inherent limitation, this model is only suitable for a sample size of 1000 tweets, with only
+			the specific featured used being the tones, judgements, and polarities extracted, ideally, using
+			the same LLAMA4MAVERICK Model to extract these features. Additionally, the model developed is only
+			fit for senatorial candidates, as the data and features gathered for partylists showed no correlation
+			to their votes,
+			<br /><br />
+			In the future, more scraping should be scraped, and a diversity of platforms and media types is
+			suggested, expanding upon comments, and performing OCR in Images and Videos to fit the more diverse
+			nature of social media. Additionally, more features should be extracted or reduced to determine
+			more factors that affect a candidate's votes. Especially using specific platforms, demographics,
+			or other fields that affect a candidate's potential votes.
+		</p>
 	</div>
 </section>
