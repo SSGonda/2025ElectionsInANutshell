@@ -16,13 +16,21 @@
 
 <section class="mx-auto max-w-7xl font-[HomeVideo-ABLG6G]">
 	<p class="mx-auto max-w-4xl">
-		In conclusion, the study highlights the measurable role of social media 
-		discourse in shaping electoral outcomes during the 2025 Philippine 
-		midterm elections. The patterns observed emphasize that online 
-		sentiment is not merely background noise but a factor that interacts 
-		with voter behavior and candidate visibility. In the end, the 
-		influence of social media today reaches far beyond daily 
-		conversations, extending into the electoral process and shaping 
-		the future direction of the nation.
+		In conclusion, this study examined the role of social media discourse in 
+		shaping electoral outcomes during the 2025 Philippine midterm elections. The 
+		regression analysis highlighted that certain emotional tones and patterns of online 
+		sentiment exert stronger influence on candidate visibility and voter support than 
+		others, while some expressions play a weaker or even negative role.
+	<br /><br/>
+		These findings suggest that the dynamics of social media are complex, with sentiment 
+		shaping electoral behavior in ways that go beyond simple positive or negative reactions. 
+		This reinforces the study’s objective of understanding how emotions and judgments expressed 
+		online connect with political outcomes.
+	<br /><br/>
+		The results underscore the growing significance of digital platforms in 
+		democratic processes, where public discourse can shape perceptions and ultimately 
+		influence electoral futures. Future research should expand data sources and refine 
+		analytical approaches to capture the full spectrum of online sentiment, offering deeper 
+		insights into how social media continues to transform political engagement.
 	</p>
 </section>
